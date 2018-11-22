@@ -1,0 +1,1125 @@
+-- Logs begin at czw 2018-11-15 10:51:51 CET, end at czw 2018-11-22 01:04:47 CET. --
+lis 22 00:37:17 pw systemd-udevd[9479]: [0;1;39mCould not generate persistent MAC address for vethfcb62d0: No such file or directory[0m
+lis 22 00:37:17 pw NetworkManager[796]: <info>  [1542843437.5393] manager: (vethfcb62d0): new Veth device (/org/freedesktop/NetworkManager/Devices/433)
+lis 22 00:37:17 pw NetworkManager[796]: [0;1;39m<warn>  [1542843437.5398] device (vethbe1f0b0): failed to find device 295 'vethbe1f0b0' with udev[0m
+lis 22 00:37:17 pw NetworkManager[796]: <info>  [1542843437.5418] manager: (vethbe1f0b0): new Veth device (/org/freedesktop/NetworkManager/Devices/434)
+lis 22 00:37:17 pw dockerd[9808]: time="2018-11-22T00:37:17.547362156+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:37:17 pw dockerd[9808]: time="2018-11-22T00:37:17.547489057+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:37:17 pw NetworkManager[796]: <info>  [1542843437.5493] devices added (path: /sys/devices/virtual/net/vethfcb62d0, iface: vethfcb62d0)
+lis 22 00:37:17 pw NetworkManager[796]: <info>  [1542843437.5494] device added (path: /sys/devices/virtual/net/vethfcb62d0, iface: vethfcb62d0): no ifupdown configuration found.
+lis 22 00:37:17 pw NetworkManager[796]: <info>  [1542843437.5524] devices added (path: /sys/devices/virtual/net/vethbe1f0b0, iface: vethbe1f0b0)
+lis 22 00:37:17 pw NetworkManager[796]: <info>  [1542843437.5524] device added (path: /sys/devices/virtual/net/vethbe1f0b0, iface: vethbe1f0b0): no ifupdown configuration found.
+lis 22 00:37:17 pw containerd[9702]: time="2018-11-22T00:37:17.586771242+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc/shim.sock" debug=false pid=9506
+lis 22 00:37:18 pw kernel: eth0: renamed from vethfcb62d0
+lis 22 00:37:18 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethbe1f0b0: link becomes ready
+lis 22 00:37:18 pw NetworkManager[796]: <info>  [1542843438.0890] devices removed (path: /sys/devices/virtual/net/vethfcb62d0, iface: vethfcb62d0)
+lis 22 00:37:18 pw NetworkManager[796]: <info>  [1542843438.0890] device (vethfcb62d0): driver 'veth' does not support carrier detection.
+lis 22 00:37:18 pw NetworkManager[796]: <info>  [1542843438.0892] device (vethbe1f0b0): link connected
+lis 22 00:37:18 pw containerd[9702]: time="2018-11-22T00:37:18.661034054+01:00" level=info msg="shim reaped" id=8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc
+lis 22 00:37:18 pw dockerd[9808]: time="2018-11-22T00:37:18.671147671+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:37:18 pw kernel: br-c9bc11d88ec6: port 1(vethbe1f0b0) entered disabled state
+lis 22 00:37:18 pw kernel: vethfcb62d0: renamed from eth0
+lis 22 00:37:18 pw NetworkManager[796]: <info>  [1542843438.7166] device (vethbe1f0b0): link disconnected
+lis 22 00:37:18 pw NetworkManager[796]: [0;1;39m<warn>  [1542843438.7166] device (vethfcb62d0): failed to find device 294 'vethfcb62d0' with udev[0m
+lis 22 00:37:18 pw NetworkManager[796]: <info>  [1542843438.7179] manager: (vethfcb62d0): new Veth device (/org/freedesktop/NetworkManager/Devices/435)
+lis 22 00:37:18 pw kernel: br-c9bc11d88ec6: port 1(vethbe1f0b0) entered disabled state
+lis 22 00:37:18 pw kernel: device vethbe1f0b0 left promiscuous mode
+lis 22 00:37:18 pw kernel: br-c9bc11d88ec6: port 1(vethbe1f0b0) entered disabled state
+lis 22 00:37:18 pw NetworkManager[796]: <info>  [1542843438.7418] devices added (path: /sys/devices/virtual/net/vethfcb62d0, iface: vethfcb62d0)
+lis 22 00:37:18 pw NetworkManager[796]: <info>  [1542843438.7418] device added (path: /sys/devices/virtual/net/vethfcb62d0, iface: vethfcb62d0): no ifupdown configuration found.
+lis 22 00:37:18 pw NetworkManager[796]: <info>  [1542843438.7423] devices removed (path: /sys/devices/virtual/net/vethfcb62d0, iface: vethfcb62d0)
+lis 22 00:37:18 pw NetworkManager[796]: <info>  [1542843438.7434] device (vethfcb62d0): driver 'veth' does not support carrier detection.
+lis 22 00:37:18 pw NetworkManager[796]: <info>  [1542843438.7437] device (vethbe1f0b0): driver 'veth' does not support carrier detection.
+lis 22 00:37:18 pw NetworkManager[796]: <info>  [1542843438.7468] devices removed (path: /sys/devices/virtual/net/vethbe1f0b0, iface: vethbe1f0b0)
+lis 22 00:37:19 pw kernel: br-c9bc11d88ec6: port 1(veth5f27c5d) entered blocking state
+lis 22 00:37:19 pw kernel: br-c9bc11d88ec6: port 1(veth5f27c5d) entered disabled state
+lis 22 00:37:19 pw kernel: device veth5f27c5d entered promiscuous mode
+lis 22 00:37:19 pw kernel: IPv6: ADDRCONF(NETDEV_UP): veth5f27c5d: link is not ready
+lis 22 00:37:19 pw kernel: br-c9bc11d88ec6: port 1(veth5f27c5d) entered blocking state
+lis 22 00:37:19 pw kernel: br-c9bc11d88ec6: port 1(veth5f27c5d) entered forwarding state
+lis 22 00:37:19 pw NetworkManager[796]: [0;1;39m<warn>  [1542843439.4762] device (veth26f483f): failed to find device 296 'veth26f483f' with udev[0m
+lis 22 00:37:19 pw systemd-udevd[9701]: [0;1;39mCould not generate persistent MAC address for veth5f27c5d: No such file or directory[0m
+lis 22 00:37:19 pw systemd-udevd[9700]: [0;1;39mCould not generate persistent MAC address for veth26f483f: No such file or directory[0m
+lis 22 00:37:19 pw NetworkManager[796]: <info>  [1542843439.4794] manager: (veth26f483f): new Veth device (/org/freedesktop/NetworkManager/Devices/436)
+lis 22 00:37:19 pw NetworkManager[796]: [0;1;39m<warn>  [1542843439.4806] device (veth5f27c5d): failed to find device 297 'veth5f27c5d' with udev[0m
+lis 22 00:37:19 pw NetworkManager[796]: <info>  [1542843439.4814] manager: (veth5f27c5d): new Veth device (/org/freedesktop/NetworkManager/Devices/437)
+lis 22 00:37:19 pw dockerd[9808]: time="2018-11-22T00:37:19.483672583+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:37:19 pw dockerd[9808]: time="2018-11-22T00:37:19.483698703+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:37:19 pw NetworkManager[796]: <info>  [1542843439.4860] devices added (path: /sys/devices/virtual/net/veth5f27c5d, iface: veth5f27c5d)
+lis 22 00:37:19 pw NetworkManager[796]: <info>  [1542843439.4861] device added (path: /sys/devices/virtual/net/veth5f27c5d, iface: veth5f27c5d): no ifupdown configuration found.
+lis 22 00:37:19 pw NetworkManager[796]: <info>  [1542843439.4873] devices added (path: /sys/devices/virtual/net/veth26f483f, iface: veth26f483f)
+lis 22 00:37:19 pw NetworkManager[796]: <info>  [1542843439.4874] device added (path: /sys/devices/virtual/net/veth26f483f, iface: veth26f483f): no ifupdown configuration found.
+lis 22 00:37:19 pw containerd[9702]: time="2018-11-22T00:37:19.523253479+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc/shim.sock" debug=false pid=9740
+lis 22 00:37:19 pw kernel: br-c9bc11d88ec6: port 1(veth5f27c5d) entered disabled state
+lis 22 00:37:20 pw kernel: eth0: renamed from veth26f483f
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.0169] devices removed (path: /sys/devices/virtual/net/veth26f483f, iface: veth26f483f)
+lis 22 00:37:20 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth5f27c5d: link becomes ready
+lis 22 00:37:20 pw kernel: br-c9bc11d88ec6: port 1(veth5f27c5d) entered blocking state
+lis 22 00:37:20 pw kernel: br-c9bc11d88ec6: port 1(veth5f27c5d) entered forwarding state
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.0170] device (veth26f483f): driver 'veth' does not support carrier detection.
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.0172] device (veth5f27c5d): link connected
+lis 22 00:37:20 pw containerd[9702]: time="2018-11-22T00:37:20.412087733+01:00" level=info msg="shim reaped" id=72d2026d0415ec0ecc9deccf5bfc7c36b8b395894682d31ad157e301a283d448
+lis 22 00:37:20 pw containerd[9702]: time="2018-11-22T00:37:20.412612030+01:00" level=info msg="shim reaped" id=8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc
+lis 22 00:37:20 pw dockerd[9808]: time="2018-11-22T00:37:20.423160547+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:37:20 pw dockerd[9808]: time="2018-11-22T00:37:20.423213906+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:37:20 pw kernel: br-c9bc11d88ec6: port 2(vethf3f7a64) entered disabled state
+lis 22 00:37:20 pw kernel: vethd34377c: renamed from eth0
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.4731] device (vethf3f7a64): link disconnected
+lis 22 00:37:20 pw NetworkManager[796]: [0;1;39m<warn>  [1542843440.4731] device (vethd34377c): failed to find device 288 'vethd34377c' with udev[0m
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.4738] manager: (vethd34377c): new Veth device (/org/freedesktop/NetworkManager/Devices/438)
+lis 22 00:37:20 pw avahi-daemon[763]: Interface vethf3f7a64.IPv6 no longer relevant for mDNS.
+lis 22 00:37:20 pw avahi-daemon[763]: Leaving mDNS multicast group on interface vethf3f7a64.IPv6 with address fe80::3096:50ff:fe1e:a3ed.
+lis 22 00:37:20 pw kernel: br-c9bc11d88ec6: port 2(vethf3f7a64) entered disabled state
+lis 22 00:37:20 pw kernel: device vethf3f7a64 left promiscuous mode
+lis 22 00:37:20 pw kernel: br-c9bc11d88ec6: port 2(vethf3f7a64) entered disabled state
+lis 22 00:37:20 pw avahi-daemon[763]: Withdrawing address record for fe80::3096:50ff:fe1e:a3ed on vethf3f7a64.
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.5013] devices added (path: /sys/devices/virtual/net/vethd34377c, iface: vethd34377c)
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.5015] device added (path: /sys/devices/virtual/net/vethd34377c, iface: vethd34377c): no ifupdown configuration found.
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.5017] devices removed (path: /sys/devices/virtual/net/vethd34377c, iface: vethd34377c)
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.5018] device (vethd34377c): driver 'veth' does not support carrier detection.
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.5025] device (vethf3f7a64): driver 'veth' does not support carrier detection.
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.5107] devices removed (path: /sys/devices/virtual/net/vethf3f7a64, iface: vethf3f7a64)
+lis 22 00:37:20 pw kernel: br-c9bc11d88ec6: port 1(veth5f27c5d) entered disabled state
+lis 22 00:37:20 pw kernel: veth26f483f: renamed from eth0
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.5886] device (veth5f27c5d): link disconnected
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.5891] device (br-c9bc11d88ec6): link disconnected (deferring action for 4 seconds)
+lis 22 00:37:20 pw NetworkManager[796]: [0;1;39m<warn>  [1542843440.5895] device (veth26f483f): failed to find device 296 'veth26f483f' with udev[0m
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.5903] manager: (veth26f483f): new Veth device (/org/freedesktop/NetworkManager/Devices/439)
+lis 22 00:37:20 pw kernel: br-c9bc11d88ec6: port 1(veth5f27c5d) entered disabled state
+lis 22 00:37:20 pw kernel: device veth5f27c5d left promiscuous mode
+lis 22 00:37:20 pw kernel: br-c9bc11d88ec6: port 1(veth5f27c5d) entered disabled state
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.6175] devices added (path: /sys/devices/virtual/net/veth26f483f, iface: veth26f483f)
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.6175] device added (path: /sys/devices/virtual/net/veth26f483f, iface: veth26f483f): no ifupdown configuration found.
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.6179] devices removed (path: /sys/devices/virtual/net/veth26f483f, iface: veth26f483f)
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.6194] device (veth26f483f): driver 'veth' does not support carrier detection.
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.6197] device (veth5f27c5d): driver 'veth' does not support carrier detection.
+lis 22 00:37:20 pw NetworkManager[796]: <info>  [1542843440.6234] devices removed (path: /sys/devices/virtual/net/veth5f27c5d, iface: veth5f27c5d)
+lis 22 00:37:21 pw ntpd[1437]: Deleting interface #189 br-c9bc11d88ec6, 10.5.0.1#123, interface stats: received=0, sent=0, dropped=0, active_time=118 secs
+lis 22 00:37:21 pw ntpd[1437]: Deleting interface #190 vethdc3f140, fe80::90b1:57ff:fe06:1ee7%283#123, interface stats: received=0, sent=0, dropped=0, active_time=118 secs
+lis 22 00:37:21 pw ntpd[1437]: Deleting interface #192 br-c9bc11d88ec6, fe80::42:2fff:fe7c:661%73#123, interface stats: received=0, sent=0, dropped=0, active_time=118 secs
+lis 22 00:37:24 pw NetworkManager[796]: <info>  [1542843444.6681] device (br-c9bc11d88ec6): link disconnected (calling deferred action)
+lis 22 00:37:26 pw kernel: br-c9bc11d88ec6: port 1(vethd8e4c0b) entered blocking state
+lis 22 00:37:26 pw kernel: br-c9bc11d88ec6: port 1(vethd8e4c0b) entered disabled state
+lis 22 00:37:26 pw kernel: device vethd8e4c0b entered promiscuous mode
+lis 22 00:37:26 pw kernel: IPv6: ADDRCONF(NETDEV_UP): vethd8e4c0b: link is not ready
+lis 22 00:37:26 pw systemd-udevd[10027]: [0;1;39mCould not generate persistent MAC address for vethd8e4c0b: No such file or directory[0m
+lis 22 00:37:26 pw systemd-udevd[10026]: [0;1;39mCould not generate persistent MAC address for veth19fb9a4: No such file or directory[0m
+lis 22 00:37:26 pw NetworkManager[796]: [0;1;39m<warn>  [1542843446.1173] device (veth19fb9a4): failed to find device 298 'veth19fb9a4' with udev[0m
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.1187] manager: (veth19fb9a4): new Veth device (/org/freedesktop/NetworkManager/Devices/440)
+lis 22 00:37:26 pw NetworkManager[796]: [0;1;39m<warn>  [1542843446.1200] device (vethd8e4c0b): failed to find device 299 'vethd8e4c0b' with udev[0m
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.1215] manager: (vethd8e4c0b): new Veth device (/org/freedesktop/NetworkManager/Devices/441)
+lis 22 00:37:26 pw dockerd[9808]: time="2018-11-22T00:37:26.128972872+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:37:26 pw dockerd[9808]: time="2018-11-22T00:37:26.129003393+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.1306] devices added (path: /sys/devices/virtual/net/vethd8e4c0b, iface: vethd8e4c0b)
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.1306] device added (path: /sys/devices/virtual/net/vethd8e4c0b, iface: vethd8e4c0b): no ifupdown configuration found.
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.1319] devices added (path: /sys/devices/virtual/net/veth19fb9a4, iface: veth19fb9a4)
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.1319] device added (path: /sys/devices/virtual/net/veth19fb9a4, iface: veth19fb9a4): no ifupdown configuration found.
+lis 22 00:37:26 pw containerd[9702]: time="2018-11-22T00:37:26.171498547+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc/shim.sock" debug=false pid=10056
+lis 22 00:37:26 pw kernel: eth0: renamed from veth19fb9a4
+lis 22 00:37:26 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethd8e4c0b: link becomes ready
+lis 22 00:37:26 pw kernel: br-c9bc11d88ec6: port 1(vethd8e4c0b) entered blocking state
+lis 22 00:37:26 pw kernel: br-c9bc11d88ec6: port 1(vethd8e4c0b) entered forwarding state
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.6573] devices removed (path: /sys/devices/virtual/net/veth19fb9a4, iface: veth19fb9a4)
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.6574] device (veth19fb9a4): driver 'veth' does not support carrier detection.
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.6577] device (vethd8e4c0b): link connected
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.6578] device (br-c9bc11d88ec6): link connected
+lis 22 00:37:26 pw systemd-udevd[10180]: [0;1;39mCould not generate persistent MAC address for veth9fde1e9: No such file or directory[0m
+lis 22 00:37:26 pw NetworkManager[796]: [0;1;39m<warn>  [1542843446.8555] device (vethade9288): failed to find device 300 'vethade9288' with udev[0m
+lis 22 00:37:26 pw kernel: br-c9bc11d88ec6: port 2(veth9fde1e9) entered blocking state
+lis 22 00:37:26 pw kernel: br-c9bc11d88ec6: port 2(veth9fde1e9) entered disabled state
+lis 22 00:37:26 pw kernel: device veth9fde1e9 entered promiscuous mode
+lis 22 00:37:26 pw kernel: IPv6: ADDRCONF(NETDEV_UP): veth9fde1e9: link is not ready
+lis 22 00:37:26 pw kernel: br-c9bc11d88ec6: port 2(veth9fde1e9) entered blocking state
+lis 22 00:37:26 pw kernel: br-c9bc11d88ec6: port 2(veth9fde1e9) entered forwarding state
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.8563] manager: (vethade9288): new Veth device (/org/freedesktop/NetworkManager/Devices/442)
+lis 22 00:37:26 pw systemd-udevd[10179]: [0;1;39mCould not generate persistent MAC address for vethade9288: No such file or directory[0m
+lis 22 00:37:26 pw NetworkManager[796]: [0;1;39m<warn>  [1542843446.8592] device (veth9fde1e9): failed to find device 301 'veth9fde1e9' with udev[0m
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.8603] manager: (veth9fde1e9): new Veth device (/org/freedesktop/NetworkManager/Devices/443)
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.8659] devices added (path: /sys/devices/virtual/net/veth9fde1e9, iface: veth9fde1e9)
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.8659] device added (path: /sys/devices/virtual/net/veth9fde1e9, iface: veth9fde1e9): no ifupdown configuration found.
+lis 22 00:37:26 pw dockerd[9808]: time="2018-11-22T00:37:26.868393589+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:37:26 pw dockerd[9808]: time="2018-11-22T00:37:26.868418662+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.8747] devices added (path: /sys/devices/virtual/net/vethade9288, iface: vethade9288)
+lis 22 00:37:26 pw NetworkManager[796]: <info>  [1542843446.8747] device added (path: /sys/devices/virtual/net/vethade9288, iface: vethade9288): no ifupdown configuration found.
+lis 22 00:37:26 pw containerd[9702]: time="2018-11-22T00:37:26.907100214+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/72d2026d0415ec0ecc9deccf5bfc7c36b8b395894682d31ad157e301a283d448/shim.sock" debug=false pid=10216
+lis 22 00:37:27 pw kernel: br-c9bc11d88ec6: port 2(veth9fde1e9) entered disabled state
+lis 22 00:37:27 pw containerd[9702]: time="2018-11-22T00:37:27.270330822+01:00" level=info msg="shim reaped" id=8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc
+lis 22 00:37:27 pw dockerd[9808]: time="2018-11-22T00:37:27.280524617+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:37:27 pw kernel: eth0: renamed from vethade9288
+lis 22 00:37:27 pw NetworkManager[796]: <info>  [1542843447.3975] devices removed (path: /sys/devices/virtual/net/vethade9288, iface: vethade9288)
+lis 22 00:37:27 pw NetworkManager[796]: <info>  [1542843447.3976] device (vethade9288): driver 'veth' does not support carrier detection.
+lis 22 00:37:27 pw NetworkManager[796]: <info>  [1542843447.3987] device (veth9fde1e9): link connected
+lis 22 00:37:27 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth9fde1e9: link becomes ready
+lis 22 00:37:27 pw kernel: br-c9bc11d88ec6: port 2(veth9fde1e9) entered blocking state
+lis 22 00:37:27 pw kernel: br-c9bc11d88ec6: port 2(veth9fde1e9) entered forwarding state
+lis 22 00:37:28 pw kernel: br-c9bc11d88ec6: port 1(vethd8e4c0b) entered disabled state
+lis 22 00:37:28 pw kernel: veth19fb9a4: renamed from eth0
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.3369] device (vethd8e4c0b): link disconnected
+lis 22 00:37:28 pw NetworkManager[796]: [0;1;39m<warn>  [1542843448.3370] device (veth19fb9a4): failed to find device 298 'veth19fb9a4' with udev[0m
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.3383] manager: (veth19fb9a4): new Veth device (/org/freedesktop/NetworkManager/Devices/444)
+lis 22 00:37:28 pw kernel: br-c9bc11d88ec6: port 1(vethd8e4c0b) entered disabled state
+lis 22 00:37:28 pw kernel: device vethd8e4c0b left promiscuous mode
+lis 22 00:37:28 pw kernel: br-c9bc11d88ec6: port 1(vethd8e4c0b) entered disabled state
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.3656] devices added (path: /sys/devices/virtual/net/veth19fb9a4, iface: veth19fb9a4)
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.3656] device added (path: /sys/devices/virtual/net/veth19fb9a4, iface: veth19fb9a4): no ifupdown configuration found.
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.3662] devices removed (path: /sys/devices/virtual/net/veth19fb9a4, iface: veth19fb9a4)
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.3673] device (veth19fb9a4): driver 'veth' does not support carrier detection.
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.3677] device (vethd8e4c0b): driver 'veth' does not support carrier detection.
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.3717] devices removed (path: /sys/devices/virtual/net/vethd8e4c0b, iface: vethd8e4c0b)
+lis 22 00:37:28 pw systemd-udevd[10420]: [0;1;39mCould not generate persistent MAC address for veth2d8f044: No such file or directory[0m
+lis 22 00:37:28 pw kernel: br-c9bc11d88ec6: port 1(veth2d8f044) entered blocking state
+lis 22 00:37:28 pw kernel: br-c9bc11d88ec6: port 1(veth2d8f044) entered disabled state
+lis 22 00:37:28 pw kernel: device veth2d8f044 entered promiscuous mode
+lis 22 00:37:28 pw kernel: IPv6: ADDRCONF(NETDEV_UP): veth2d8f044: link is not ready
+lis 22 00:37:28 pw kernel: br-c9bc11d88ec6: port 1(veth2d8f044) entered blocking state
+lis 22 00:37:28 pw kernel: br-c9bc11d88ec6: port 1(veth2d8f044) entered forwarding state
+lis 22 00:37:28 pw systemd-udevd[10419]: [0;1;39mCould not generate persistent MAC address for vethe67262e: No such file or directory[0m
+lis 22 00:37:28 pw NetworkManager[796]: [0;1;39m<warn>  [1542843448.5810] device (vethe67262e): failed to find device 302 'vethe67262e' with udev[0m
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.5824] manager: (vethe67262e): new Veth device (/org/freedesktop/NetworkManager/Devices/445)
+lis 22 00:37:28 pw NetworkManager[796]: [0;1;39m<warn>  [1542843448.5828] device (veth2d8f044): failed to find device 303 'veth2d8f044' with udev[0m
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.5841] manager: (veth2d8f044): new Veth device (/org/freedesktop/NetworkManager/Devices/446)
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.5911] devices added (path: /sys/devices/virtual/net/vethe67262e, iface: vethe67262e)
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.5911] device added (path: /sys/devices/virtual/net/vethe67262e, iface: vethe67262e): no ifupdown configuration found.
+lis 22 00:37:28 pw dockerd[9808]: time="2018-11-22T00:37:28.592382524+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:37:28 pw dockerd[9808]: time="2018-11-22T00:37:28.592410111+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.5934] devices added (path: /sys/devices/virtual/net/veth2d8f044, iface: veth2d8f044)
+lis 22 00:37:28 pw NetworkManager[796]: <info>  [1542843448.5935] device added (path: /sys/devices/virtual/net/veth2d8f044, iface: veth2d8f044): no ifupdown configuration found.
+lis 22 00:37:28 pw containerd[9702]: time="2018-11-22T00:37:28.630640071+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc/shim.sock" debug=false pid=10449
+lis 22 00:37:29 pw kernel: eth0: renamed from vethe67262e
+lis 22 00:37:29 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth2d8f044: link becomes ready
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.1732] devices removed (path: /sys/devices/virtual/net/vethe67262e, iface: vethe67262e)
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.1733] device (vethe67262e): driver 'veth' does not support carrier detection.
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.1737] device (veth2d8f044): link connected
+lis 22 00:37:29 pw avahi-daemon[763]: Joining mDNS multicast group on interface veth9fde1e9.IPv6 with address fe80::548d:37ff:fe3e:58c9.
+lis 22 00:37:29 pw avahi-daemon[763]: New relevant interface veth9fde1e9.IPv6 for mDNS.
+lis 22 00:37:29 pw avahi-daemon[763]: Registering new address record for fe80::548d:37ff:fe3e:58c9 on veth9fde1e9.*.
+lis 22 00:37:29 pw containerd[9702]: time="2018-11-22T00:37:29.746934362+01:00" level=info msg="shim reaped" id=8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc
+lis 22 00:37:29 pw dockerd[9808]: time="2018-11-22T00:37:29.756921217+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:37:29 pw kernel: br-c9bc11d88ec6: port 1(veth2d8f044) entered disabled state
+lis 22 00:37:29 pw kernel: vethe67262e: renamed from eth0
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.8208] device (veth2d8f044): link disconnected
+lis 22 00:37:29 pw NetworkManager[796]: [0;1;39m<warn>  [1542843449.8210] device (vethe67262e): failed to find device 302 'vethe67262e' with udev[0m
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.8224] manager: (vethe67262e): new Veth device (/org/freedesktop/NetworkManager/Devices/447)
+lis 22 00:37:29 pw kernel: br-c9bc11d88ec6: port 1(veth2d8f044) entered disabled state
+lis 22 00:37:29 pw kernel: device veth2d8f044 left promiscuous mode
+lis 22 00:37:29 pw kernel: br-c9bc11d88ec6: port 1(veth2d8f044) entered disabled state
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.8541] devices added (path: /sys/devices/virtual/net/vethe67262e, iface: vethe67262e)
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.8541] device added (path: /sys/devices/virtual/net/vethe67262e, iface: vethe67262e): no ifupdown configuration found.
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.8546] devices removed (path: /sys/devices/virtual/net/vethe67262e, iface: vethe67262e)
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.8557] device (vethe67262e): driver 'veth' does not support carrier detection.
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.8560] device (veth2d8f044): driver 'veth' does not support carrier detection.
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.8603] devices removed (path: /sys/devices/virtual/net/veth2d8f044, iface: veth2d8f044)
+lis 22 00:37:29 pw kernel: br-c9bc11d88ec6: port 1(vethcbc4c26) entered blocking state
+lis 22 00:37:29 pw kernel: br-c9bc11d88ec6: port 1(vethcbc4c26) entered disabled state
+lis 22 00:37:29 pw kernel: device vethcbc4c26 entered promiscuous mode
+lis 22 00:37:29 pw kernel: IPv6: ADDRCONF(NETDEV_UP): vethcbc4c26: link is not ready
+lis 22 00:37:29 pw kernel: br-c9bc11d88ec6: port 1(vethcbc4c26) entered blocking state
+lis 22 00:37:29 pw kernel: br-c9bc11d88ec6: port 1(vethcbc4c26) entered forwarding state
+lis 22 00:37:29 pw NetworkManager[796]: [0;1;39m<warn>  [1542843449.9738] device (vethe9c8164): failed to find device 304 'vethe9c8164' with udev[0m
+lis 22 00:37:29 pw systemd-udevd[10670]: [0;1;39mCould not generate persistent MAC address for vethcbc4c26: No such file or directory[0m
+lis 22 00:37:29 pw systemd-udevd[10669]: [0;1;39mCould not generate persistent MAC address for vethe9c8164: No such file or directory[0m
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.9754] manager: (vethe9c8164): new Veth device (/org/freedesktop/NetworkManager/Devices/448)
+lis 22 00:37:29 pw NetworkManager[796]: [0;1;39m<warn>  [1542843449.9758] device (vethcbc4c26): failed to find device 305 'vethcbc4c26' with udev[0m
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.9767] manager: (vethcbc4c26): new Veth device (/org/freedesktop/NetworkManager/Devices/449)
+lis 22 00:37:29 pw dockerd[9808]: time="2018-11-22T00:37:29.984432168+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:37:29 pw dockerd[9808]: time="2018-11-22T00:37:29.984457032+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.9851] devices added (path: /sys/devices/virtual/net/vethe9c8164, iface: vethe9c8164)
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.9853] device added (path: /sys/devices/virtual/net/vethe9c8164, iface: vethe9c8164): no ifupdown configuration found.
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.9864] devices added (path: /sys/devices/virtual/net/vethcbc4c26, iface: vethcbc4c26)
+lis 22 00:37:29 pw NetworkManager[796]: <info>  [1542843449.9864] device added (path: /sys/devices/virtual/net/vethcbc4c26, iface: vethcbc4c26): no ifupdown configuration found.
+lis 22 00:37:30 pw containerd[9702]: time="2018-11-22T00:37:30.022114853+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc/shim.sock" debug=false pid=10698
+lis 22 00:37:30 pw kernel: eth0: renamed from vethe9c8164
+lis 22 00:37:30 pw NetworkManager[796]: <info>  [1542843450.5174] devices removed (path: /sys/devices/virtual/net/vethe9c8164, iface: vethe9c8164)
+lis 22 00:37:30 pw NetworkManager[796]: <info>  [1542843450.5175] device (vethe9c8164): driver 'veth' does not support carrier detection.
+lis 22 00:37:30 pw NetworkManager[796]: <info>  [1542843450.5178] device (vethcbc4c26): link connected
+lis 22 00:37:30 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethcbc4c26: link becomes ready
+lis 22 00:37:31 pw containerd[9702]: time="2018-11-22T00:37:31.136776959+01:00" level=info msg="shim reaped" id=8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc
+lis 22 00:37:31 pw dockerd[9808]: time="2018-11-22T00:37:31.146853420+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:37:31 pw kernel: br-c9bc11d88ec6: port 1(vethcbc4c26) entered disabled state
+lis 22 00:37:31 pw kernel: vethe9c8164: renamed from eth0
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.1810] device (vethcbc4c26): link disconnected
+lis 22 00:37:31 pw NetworkManager[796]: [0;1;39m<warn>  [1542843451.2045] device (vethe9c8164): failed to find device 304 'vethe9c8164' with udev[0m
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.2060] manager: (vethe9c8164): new Veth device (/org/freedesktop/NetworkManager/Devices/450)
+lis 22 00:37:31 pw kernel: br-c9bc11d88ec6: port 1(vethcbc4c26) entered disabled state
+lis 22 00:37:31 pw kernel: device vethcbc4c26 left promiscuous mode
+lis 22 00:37:31 pw kernel: br-c9bc11d88ec6: port 1(vethcbc4c26) entered disabled state
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.2292] devices added (path: /sys/devices/virtual/net/vethe9c8164, iface: vethe9c8164)
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.2293] device added (path: /sys/devices/virtual/net/vethe9c8164, iface: vethe9c8164): no ifupdown configuration found.
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.2298] devices removed (path: /sys/devices/virtual/net/vethe9c8164, iface: vethe9c8164)
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.2304] device (vethe9c8164): driver 'veth' does not support carrier detection.
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.2308] device (vethcbc4c26): driver 'veth' does not support carrier detection.
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.2357] devices removed (path: /sys/devices/virtual/net/vethcbc4c26, iface: vethcbc4c26)
+lis 22 00:37:31 pw systemd-udevd[10895]: [0;1;39mCould not generate persistent MAC address for veth3e2b795: No such file or directory[0m
+lis 22 00:37:31 pw kernel: br-c9bc11d88ec6: port 1(vethb8a7bf2) entered blocking state
+lis 22 00:37:31 pw kernel: br-c9bc11d88ec6: port 1(vethb8a7bf2) entered disabled state
+lis 22 00:37:31 pw kernel: device vethb8a7bf2 entered promiscuous mode
+lis 22 00:37:31 pw NetworkManager[796]: [0;1;39m<warn>  [1542843451.5516] device (veth3e2b795): failed to find device 306 'veth3e2b795' with udev[0m
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.5530] manager: (veth3e2b795): new Veth device (/org/freedesktop/NetworkManager/Devices/451)
+lis 22 00:37:31 pw NetworkManager[796]: [0;1;39m<warn>  [1542843451.5535] device (vethb8a7bf2): failed to find device 307 'vethb8a7bf2' with udev[0m
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.5549] manager: (vethb8a7bf2): new Veth device (/org/freedesktop/NetworkManager/Devices/452)
+lis 22 00:37:31 pw kernel: IPv6: ADDRCONF(NETDEV_UP): vethb8a7bf2: link is not ready
+lis 22 00:37:31 pw kernel: br-c9bc11d88ec6: port 1(vethb8a7bf2) entered blocking state
+lis 22 00:37:31 pw kernel: br-c9bc11d88ec6: port 1(vethb8a7bf2) entered forwarding state
+lis 22 00:37:31 pw systemd-udevd[10896]: [0;1;39mCould not generate persistent MAC address for vethb8a7bf2: No such file or directory[0m
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.5602] devices added (path: /sys/devices/virtual/net/veth3e2b795, iface: veth3e2b795)
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.5603] device added (path: /sys/devices/virtual/net/veth3e2b795, iface: veth3e2b795): no ifupdown configuration found.
+lis 22 00:37:31 pw dockerd[9808]: time="2018-11-22T00:37:31.564143469+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:37:31 pw dockerd[9808]: time="2018-11-22T00:37:31.564169101+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.5656] devices added (path: /sys/devices/virtual/net/vethb8a7bf2, iface: vethb8a7bf2)
+lis 22 00:37:31 pw NetworkManager[796]: <info>  [1542843451.5656] device added (path: /sys/devices/virtual/net/vethb8a7bf2, iface: vethb8a7bf2): no ifupdown configuration found.
+lis 22 00:37:31 pw containerd[9702]: time="2018-11-22T00:37:31.609107226+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc/shim.sock" debug=false pid=10924
+lis 22 00:37:32 pw NetworkManager[796]: <info>  [1542843452.0851] device (veth3e2b795): driver 'veth' does not support carrier detection.
+lis 22 00:37:32 pw kernel: eth0: renamed from veth3e2b795
+lis 22 00:37:32 pw NetworkManager[796]: <info>  [1542843452.0895] devices removed (path: /sys/devices/virtual/net/veth3e2b795, iface: veth3e2b795)
+lis 22 00:37:32 pw NetworkManager[796]: <info>  [1542843452.1054] device (vethb8a7bf2): link connected
+lis 22 00:37:32 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethb8a7bf2: link becomes ready
+lis 22 00:37:32 pw containerd[9702]: time="2018-11-22T00:37:32.742168406+01:00" level=info msg="shim reaped" id=8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc
+lis 22 00:37:32 pw dockerd[9808]: time="2018-11-22T00:37:32.752277553+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:37:32 pw NetworkManager[796]: <info>  [1542843452.7703] device (vethb8a7bf2): link disconnected
+lis 22 00:37:32 pw kernel: br-c9bc11d88ec6: port 1(vethb8a7bf2) entered disabled state
+lis 22 00:37:32 pw kernel: veth3e2b795: renamed from eth0
+lis 22 00:37:32 pw NetworkManager[796]: [0;1;39m<warn>  [1542843452.8087] device (veth3e2b795): failed to find device 306 'veth3e2b795' with udev[0m
+lis 22 00:37:32 pw NetworkManager[796]: <info>  [1542843452.8101] manager: (veth3e2b795): new Veth device (/org/freedesktop/NetworkManager/Devices/453)
+lis 22 00:37:32 pw kernel: br-c9bc11d88ec6: port 1(vethb8a7bf2) entered disabled state
+lis 22 00:37:32 pw kernel: device vethb8a7bf2 left promiscuous mode
+lis 22 00:37:32 pw kernel: br-c9bc11d88ec6: port 1(vethb8a7bf2) entered disabled state
+lis 22 00:37:32 pw NetworkManager[796]: <info>  [1542843452.8380] devices added (path: /sys/devices/virtual/net/veth3e2b795, iface: veth3e2b795)
+lis 22 00:37:32 pw NetworkManager[796]: <info>  [1542843452.8380] device added (path: /sys/devices/virtual/net/veth3e2b795, iface: veth3e2b795): no ifupdown configuration found.
+lis 22 00:37:32 pw NetworkManager[796]: <info>  [1542843452.8388] devices removed (path: /sys/devices/virtual/net/veth3e2b795, iface: veth3e2b795)
+lis 22 00:37:32 pw NetworkManager[796]: <info>  [1542843452.8400] device (veth3e2b795): driver 'veth' does not support carrier detection.
+lis 22 00:37:32 pw NetworkManager[796]: <info>  [1542843452.8404] device (vethb8a7bf2): driver 'veth' does not support carrier detection.
+lis 22 00:37:32 pw NetworkManager[796]: <info>  [1542843452.8475] devices removed (path: /sys/devices/virtual/net/vethb8a7bf2, iface: vethb8a7bf2)
+lis 22 00:37:33 pw kernel: br-c9bc11d88ec6: port 1(veth1f0e243) entered blocking state
+lis 22 00:37:33 pw kernel: br-c9bc11d88ec6: port 1(veth1f0e243) entered disabled state
+lis 22 00:37:33 pw kernel: device veth1f0e243 entered promiscuous mode
+lis 22 00:37:33 pw kernel: IPv6: ADDRCONF(NETDEV_UP): veth1f0e243: link is not ready
+lis 22 00:37:33 pw kernel: br-c9bc11d88ec6: port 1(veth1f0e243) entered blocking state
+lis 22 00:37:33 pw kernel: br-c9bc11d88ec6: port 1(veth1f0e243) entered forwarding state
+lis 22 00:37:33 pw NetworkManager[796]: [0;1;39m<warn>  [1542843453.5573] device (veth013d0cc): failed to find device 308 'veth013d0cc' with udev[0m
+lis 22 00:37:33 pw systemd-udevd[11124]: [0;1;39mCould not generate persistent MAC address for veth013d0cc: No such file or directory[0m
+lis 22 00:37:33 pw NetworkManager[796]: <info>  [1542843453.5587] manager: (veth013d0cc): new Veth device (/org/freedesktop/NetworkManager/Devices/454)
+lis 22 00:37:33 pw systemd-udevd[11125]: [0;1;39mCould not generate persistent MAC address for veth1f0e243: No such file or directory[0m
+lis 22 00:37:33 pw NetworkManager[796]: [0;1;39m<warn>  [1542843453.5590] device (veth1f0e243): failed to find device 309 'veth1f0e243' with udev[0m
+lis 22 00:37:33 pw NetworkManager[796]: <info>  [1542843453.5603] manager: (veth1f0e243): new Veth device (/org/freedesktop/NetworkManager/Devices/455)
+lis 22 00:37:33 pw dockerd[9808]: time="2018-11-22T00:37:33.566117992+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:37:33 pw dockerd[9808]: time="2018-11-22T00:37:33.566143833+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:37:33 pw NetworkManager[796]: <info>  [1542843453.5688] devices added (path: /sys/devices/virtual/net/veth1f0e243, iface: veth1f0e243)
+lis 22 00:37:33 pw NetworkManager[796]: <info>  [1542843453.5689] device added (path: /sys/devices/virtual/net/veth1f0e243, iface: veth1f0e243): no ifupdown configuration found.
+lis 22 00:37:33 pw NetworkManager[796]: <info>  [1542843453.5707] devices added (path: /sys/devices/virtual/net/veth013d0cc, iface: veth013d0cc)
+lis 22 00:37:33 pw NetworkManager[796]: <info>  [1542843453.5707] device added (path: /sys/devices/virtual/net/veth013d0cc, iface: veth013d0cc): no ifupdown configuration found.
+lis 22 00:37:33 pw containerd[9702]: time="2018-11-22T00:37:33.607048567+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc/shim.sock" debug=false pid=11154
+lis 22 00:37:33 pw kernel: br-c9bc11d88ec6: port 1(veth1f0e243) entered disabled state
+lis 22 00:37:34 pw kernel: eth0: renamed from veth013d0cc
+lis 22 00:37:34 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth1f0e243: link becomes ready
+lis 22 00:37:34 pw kernel: br-c9bc11d88ec6: port 1(veth1f0e243) entered blocking state
+lis 22 00:37:34 pw kernel: br-c9bc11d88ec6: port 1(veth1f0e243) entered forwarding state
+lis 22 00:37:34 pw NetworkManager[796]: <info>  [1542843454.1173] devices removed (path: /sys/devices/virtual/net/veth013d0cc, iface: veth013d0cc)
+lis 22 00:37:34 pw NetworkManager[796]: <info>  [1542843454.1174] device (veth013d0cc): driver 'veth' does not support carrier detection.
+lis 22 00:37:34 pw NetworkManager[796]: <info>  [1542843454.1178] device (veth1f0e243): link connected
+lis 22 00:37:34 pw containerd[9702]: time="2018-11-22T00:37:34.712630075+01:00" level=info msg="shim reaped" id=8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc
+lis 22 00:37:34 pw dockerd[9808]: time="2018-11-22T00:37:34.723498534+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:37:34 pw kernel: br-c9bc11d88ec6: port 1(veth1f0e243) entered disabled state
+lis 22 00:37:34 pw kernel: veth013d0cc: renamed from eth0
+lis 22 00:37:34 pw NetworkManager[796]: <info>  [1542843454.7727] device (veth1f0e243): link disconnected
+lis 22 00:37:34 pw NetworkManager[796]: [0;1;39m<warn>  [1542843454.7728] device (veth013d0cc): failed to find device 308 'veth013d0cc' with udev[0m
+lis 22 00:37:34 pw NetworkManager[796]: <info>  [1542843454.7740] manager: (veth013d0cc): new Veth device (/org/freedesktop/NetworkManager/Devices/456)
+lis 22 00:37:34 pw kernel: br-c9bc11d88ec6: port 1(veth1f0e243) entered disabled state
+lis 22 00:37:34 pw kernel: device veth1f0e243 left promiscuous mode
+lis 22 00:37:34 pw kernel: br-c9bc11d88ec6: port 1(veth1f0e243) entered disabled state
+lis 22 00:37:34 pw NetworkManager[796]: <info>  [1542843454.7967] devices added (path: /sys/devices/virtual/net/veth013d0cc, iface: veth013d0cc)
+lis 22 00:37:34 pw NetworkManager[796]: <info>  [1542843454.7968] device added (path: /sys/devices/virtual/net/veth013d0cc, iface: veth013d0cc): no ifupdown configuration found.
+lis 22 00:37:34 pw NetworkManager[796]: <info>  [1542843454.7974] devices removed (path: /sys/devices/virtual/net/veth013d0cc, iface: veth013d0cc)
+lis 22 00:37:34 pw NetworkManager[796]: <info>  [1542843454.7991] device (veth013d0cc): driver 'veth' does not support carrier detection.
+lis 22 00:37:34 pw NetworkManager[796]: <info>  [1542843454.7993] device (veth1f0e243): driver 'veth' does not support carrier detection.
+lis 22 00:37:34 pw NetworkManager[796]: <info>  [1542843454.8043] devices removed (path: /sys/devices/virtual/net/veth1f0e243, iface: veth1f0e243)
+lis 22 00:37:36 pw systemd-udevd[11351]: [0;1;39mCould not generate persistent MAC address for vethb6b8d6d: No such file or directory[0m
+lis 22 00:37:36 pw NetworkManager[796]: [0;1;39m<warn>  [1542843456.3270] device (vethb6b8d6d): failed to find device 310 'vethb6b8d6d' with udev[0m
+lis 22 00:37:36 pw systemd-udevd[11352]: [0;1;39mCould not generate persistent MAC address for vethceebf49: No such file or directory[0m
+lis 22 00:37:36 pw NetworkManager[796]: <info>  [1542843456.3293] manager: (vethb6b8d6d): new Veth device (/org/freedesktop/NetworkManager/Devices/457)
+lis 22 00:37:36 pw NetworkManager[796]: [0;1;39m<warn>  [1542843456.3300] device (vethceebf49): failed to find device 311 'vethceebf49' with udev[0m
+lis 22 00:37:36 pw kernel: br-c9bc11d88ec6: port 1(vethceebf49) entered blocking state
+lis 22 00:37:36 pw kernel: br-c9bc11d88ec6: port 1(vethceebf49) entered disabled state
+lis 22 00:37:36 pw kernel: device vethceebf49 entered promiscuous mode
+lis 22 00:37:36 pw kernel: IPv6: ADDRCONF(NETDEV_UP): vethceebf49: link is not ready
+lis 22 00:37:36 pw NetworkManager[796]: <info>  [1542843456.3310] manager: (vethceebf49): new Veth device (/org/freedesktop/NetworkManager/Devices/458)
+lis 22 00:37:36 pw NetworkManager[796]: <info>  [1542843456.3370] devices added (path: /sys/devices/virtual/net/vethceebf49, iface: vethceebf49)
+lis 22 00:37:36 pw NetworkManager[796]: <info>  [1542843456.3371] device added (path: /sys/devices/virtual/net/vethceebf49, iface: vethceebf49): no ifupdown configuration found.
+lis 22 00:37:36 pw dockerd[9808]: time="2018-11-22T00:37:36.340551975+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:37:36 pw dockerd[9808]: time="2018-11-22T00:37:36.340579074+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:37:36 pw NetworkManager[796]: <info>  [1542843456.3436] devices added (path: /sys/devices/virtual/net/vethb6b8d6d, iface: vethb6b8d6d)
+lis 22 00:37:36 pw NetworkManager[796]: <info>  [1542843456.3437] device added (path: /sys/devices/virtual/net/vethb6b8d6d, iface: vethb6b8d6d): no ifupdown configuration found.
+lis 22 00:37:36 pw containerd[9702]: time="2018-11-22T00:37:36.380286731+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc/shim.sock" debug=false pid=11381
+lis 22 00:37:36 pw kernel: eth0: renamed from vethb6b8d6d
+lis 22 00:37:36 pw NetworkManager[796]: <info>  [1542843456.8935] devices removed (path: /sys/devices/virtual/net/vethb6b8d6d, iface: vethb6b8d6d)
+lis 22 00:37:36 pw NetworkManager[796]: <info>  [1542843456.8936] device (vethb6b8d6d): driver 'veth' does not support carrier detection.
+lis 22 00:37:36 pw NetworkManager[796]: <info>  [1542843456.8940] device (vethceebf49): link connected
+lis 22 00:37:36 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethceebf49: link becomes ready
+lis 22 00:37:36 pw kernel: br-c9bc11d88ec6: port 1(vethceebf49) entered blocking state
+lis 22 00:37:36 pw kernel: br-c9bc11d88ec6: port 1(vethceebf49) entered forwarding state
+lis 22 00:37:37 pw containerd[9702]: time="2018-11-22T00:37:37.483342716+01:00" level=info msg="shim reaped" id=8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc
+lis 22 00:37:37 pw dockerd[9808]: time="2018-11-22T00:37:37.493390543+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:37:37 pw kernel: br-c9bc11d88ec6: port 1(vethceebf49) entered disabled state
+lis 22 00:37:37 pw kernel: vethb6b8d6d: renamed from eth0
+lis 22 00:37:37 pw NetworkManager[796]: <info>  [1542843457.5612] device (vethceebf49): link disconnected
+lis 22 00:37:37 pw NetworkManager[796]: [0;1;39m<warn>  [1542843457.5613] device (vethb6b8d6d): failed to find device 310 'vethb6b8d6d' with udev[0m
+lis 22 00:37:37 pw NetworkManager[796]: <info>  [1542843457.5626] manager: (vethb6b8d6d): new Veth device (/org/freedesktop/NetworkManager/Devices/459)
+lis 22 00:37:37 pw kernel: br-c9bc11d88ec6: port 1(vethceebf49) entered disabled state
+lis 22 00:37:37 pw kernel: device vethceebf49 left promiscuous mode
+lis 22 00:37:37 pw kernel: br-c9bc11d88ec6: port 1(vethceebf49) entered disabled state
+lis 22 00:37:37 pw NetworkManager[796]: <info>  [1542843457.5890] devices added (path: /sys/devices/virtual/net/vethb6b8d6d, iface: vethb6b8d6d)
+lis 22 00:37:37 pw NetworkManager[796]: <info>  [1542843457.5890] device added (path: /sys/devices/virtual/net/vethb6b8d6d, iface: vethb6b8d6d): no ifupdown configuration found.
+lis 22 00:37:37 pw NetworkManager[796]: <info>  [1542843457.5894] devices removed (path: /sys/devices/virtual/net/vethb6b8d6d, iface: vethb6b8d6d)
+lis 22 00:37:37 pw NetworkManager[796]: <info>  [1542843457.5907] device (vethb6b8d6d): driver 'veth' does not support carrier detection.
+lis 22 00:37:37 pw NetworkManager[796]: <info>  [1542843457.5927] device (vethceebf49): driver 'veth' does not support carrier detection.
+lis 22 00:37:37 pw NetworkManager[796]: <info>  [1542843457.5970] devices removed (path: /sys/devices/virtual/net/vethceebf49, iface: vethceebf49)
+lis 22 00:37:38 pw ntpd[1437]: Listen normally on 193 br-c9bc11d88ec6 10.5.0.1:123
+lis 22 00:37:38 pw ntpd[1437]: Listen normally on 194 veth9fde1e9 [fe80::548d:37ff:fe3e:58c9%301]:123
+lis 22 00:37:38 pw ntpd[1437]: Listen normally on 195 br-c9bc11d88ec6 [fe80::42:2fff:fe7c:661%73]:123
+lis 22 00:37:38 pw ntpd[1437]: new interface(s) found: waking up resolver
+lis 22 00:37:40 pw kernel: br-c9bc11d88ec6: port 1(veth5223966) entered blocking state
+lis 22 00:37:40 pw kernel: br-c9bc11d88ec6: port 1(veth5223966) entered disabled state
+lis 22 00:37:40 pw kernel: device veth5223966 entered promiscuous mode
+lis 22 00:37:40 pw kernel: IPv6: ADDRCONF(NETDEV_UP): veth5223966: link is not ready
+lis 22 00:37:40 pw kernel: br-c9bc11d88ec6: port 1(veth5223966) entered blocking state
+lis 22 00:37:40 pw kernel: br-c9bc11d88ec6: port 1(veth5223966) entered forwarding state
+lis 22 00:37:40 pw kernel: br-c9bc11d88ec6: port 1(veth5223966) entered disabled state
+lis 22 00:37:40 pw NetworkManager[796]: [0;1;39m<warn>  [1542843460.6981] device (veth94f8765): failed to find device 312 'veth94f8765' with udev[0m
+lis 22 00:37:40 pw systemd-udevd[11602]: [0;1;39mCould not generate persistent MAC address for veth94f8765: No such file or directory[0m
+lis 22 00:37:40 pw systemd-udevd[11603]: [0;1;39mCould not generate persistent MAC address for veth5223966: No such file or directory[0m
+lis 22 00:37:40 pw NetworkManager[796]: <info>  [1542843460.7001] manager: (veth94f8765): new Veth device (/org/freedesktop/NetworkManager/Devices/460)
+lis 22 00:37:40 pw NetworkManager[796]: [0;1;39m<warn>  [1542843460.7006] device (veth5223966): failed to find device 313 'veth5223966' with udev[0m
+lis 22 00:37:40 pw NetworkManager[796]: <info>  [1542843460.7018] manager: (veth5223966): new Veth device (/org/freedesktop/NetworkManager/Devices/461)
+lis 22 00:37:40 pw dockerd[9808]: time="2018-11-22T00:37:40.706837386+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:37:40 pw dockerd[9808]: time="2018-11-22T00:37:40.706863646+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:37:40 pw NetworkManager[796]: <info>  [1542843460.7091] devices added (path: /sys/devices/virtual/net/veth5223966, iface: veth5223966)
+lis 22 00:37:40 pw NetworkManager[796]: <info>  [1542843460.7091] device added (path: /sys/devices/virtual/net/veth5223966, iface: veth5223966): no ifupdown configuration found.
+lis 22 00:37:40 pw NetworkManager[796]: <info>  [1542843460.7134] devices added (path: /sys/devices/virtual/net/veth94f8765, iface: veth94f8765)
+lis 22 00:37:40 pw NetworkManager[796]: <info>  [1542843460.7134] device added (path: /sys/devices/virtual/net/veth94f8765, iface: veth94f8765): no ifupdown configuration found.
+lis 22 00:37:40 pw containerd[9702]: time="2018-11-22T00:37:40.745636970+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc/shim.sock" debug=false pid=11631
+lis 22 00:37:41 pw kernel: eth0: renamed from veth94f8765
+lis 22 00:37:41 pw NetworkManager[796]: <info>  [1542843461.2614] devices removed (path: /sys/devices/virtual/net/veth94f8765, iface: veth94f8765)
+lis 22 00:37:41 pw NetworkManager[796]: <info>  [1542843461.2615] device (veth94f8765): driver 'veth' does not support carrier detection.
+lis 22 00:37:41 pw NetworkManager[796]: <info>  [1542843461.2619] device (veth5223966): link connected
+lis 22 00:37:41 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth5223966: link becomes ready
+lis 22 00:37:41 pw kernel: br-c9bc11d88ec6: port 1(veth5223966) entered blocking state
+lis 22 00:37:41 pw kernel: br-c9bc11d88ec6: port 1(veth5223966) entered forwarding state
+lis 22 00:37:41 pw containerd[9702]: time="2018-11-22T00:37:41.848996484+01:00" level=info msg="shim reaped" id=8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc
+lis 22 00:37:41 pw dockerd[9808]: time="2018-11-22T00:37:41.859423897+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:37:41 pw kernel: br-c9bc11d88ec6: port 1(veth5223966) entered disabled state
+lis 22 00:37:41 pw kernel: veth94f8765: renamed from eth0
+lis 22 00:37:41 pw NetworkManager[796]: <info>  [1542843461.9172] device (veth5223966): link disconnected
+lis 22 00:37:41 pw NetworkManager[796]: [0;1;39m<warn>  [1542843461.9174] device (veth94f8765): failed to find device 312 'veth94f8765' with udev[0m
+lis 22 00:37:41 pw NetworkManager[796]: <info>  [1542843461.9187] manager: (veth94f8765): new Veth device (/org/freedesktop/NetworkManager/Devices/462)
+lis 22 00:37:41 pw kernel: br-c9bc11d88ec6: port 1(veth5223966) entered disabled state
+lis 22 00:37:41 pw kernel: device veth5223966 left promiscuous mode
+lis 22 00:37:41 pw kernel: br-c9bc11d88ec6: port 1(veth5223966) entered disabled state
+lis 22 00:37:41 pw NetworkManager[796]: <info>  [1542843461.9493] devices added (path: /sys/devices/virtual/net/veth94f8765, iface: veth94f8765)
+lis 22 00:37:41 pw NetworkManager[796]: <info>  [1542843461.9494] device added (path: /sys/devices/virtual/net/veth94f8765, iface: veth94f8765): no ifupdown configuration found.
+lis 22 00:37:41 pw NetworkManager[796]: <info>  [1542843461.9497] devices removed (path: /sys/devices/virtual/net/veth94f8765, iface: veth94f8765)
+lis 22 00:37:41 pw NetworkManager[796]: <info>  [1542843461.9506] device (veth94f8765): driver 'veth' does not support carrier detection.
+lis 22 00:37:41 pw NetworkManager[796]: <info>  [1542843461.9508] device (veth5223966): driver 'veth' does not support carrier detection.
+lis 22 00:37:41 pw NetworkManager[796]: <info>  [1542843461.9574] devices removed (path: /sys/devices/virtual/net/veth5223966, iface: veth5223966)
+lis 22 00:37:48 pw kernel: br-c9bc11d88ec6: port 1(vethcb7dcac) entered blocking state
+lis 22 00:37:48 pw kernel: br-c9bc11d88ec6: port 1(vethcb7dcac) entered disabled state
+lis 22 00:37:48 pw kernel: device vethcb7dcac entered promiscuous mode
+lis 22 00:37:48 pw NetworkManager[796]: [0;1;39m<warn>  [1542843468.2629] device (vethdfda964): failed to find device 314 'vethdfda964' with udev[0m
+lis 22 00:37:48 pw systemd-udevd[11874]: [0;1;39mCould not generate persistent MAC address for vethdfda964: No such file or directory[0m
+lis 22 00:37:48 pw systemd-udevd[11875]: [0;1;39mCould not generate persistent MAC address for vethcb7dcac: No such file or directory[0m
+lis 22 00:37:48 pw kernel: IPv6: ADDRCONF(NETDEV_UP): vethcb7dcac: link is not ready
+lis 22 00:37:48 pw NetworkManager[796]: <info>  [1542843468.2673] manager: (vethdfda964): new Veth device (/org/freedesktop/NetworkManager/Devices/463)
+lis 22 00:37:48 pw NetworkManager[796]: [0;1;39m<warn>  [1542843468.2678] device (vethcb7dcac): failed to find device 315 'vethcb7dcac' with udev[0m
+lis 22 00:37:48 pw NetworkManager[796]: <info>  [1542843468.2696] manager: (vethcb7dcac): new Veth device (/org/freedesktop/NetworkManager/Devices/464)
+lis 22 00:37:48 pw NetworkManager[796]: <info>  [1542843468.2748] devices added (path: /sys/devices/virtual/net/vethcb7dcac, iface: vethcb7dcac)
+lis 22 00:37:48 pw NetworkManager[796]: <info>  [1542843468.2748] device added (path: /sys/devices/virtual/net/vethcb7dcac, iface: vethcb7dcac): no ifupdown configuration found.
+lis 22 00:37:48 pw NetworkManager[796]: <info>  [1542843468.2778] devices added (path: /sys/devices/virtual/net/vethdfda964, iface: vethdfda964)
+lis 22 00:37:48 pw NetworkManager[796]: <info>  [1542843468.2778] device added (path: /sys/devices/virtual/net/vethdfda964, iface: vethdfda964): no ifupdown configuration found.
+lis 22 00:37:48 pw dockerd[9808]: time="2018-11-22T00:37:48.279559692+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:37:48 pw dockerd[9808]: time="2018-11-22T00:37:48.279586791+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:37:48 pw containerd[9702]: time="2018-11-22T00:37:48.316162355+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc/shim.sock" debug=false pid=11904
+lis 22 00:37:48 pw kernel: eth0: renamed from vethdfda964
+lis 22 00:37:48 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethcb7dcac: link becomes ready
+lis 22 00:37:48 pw kernel: br-c9bc11d88ec6: port 1(vethcb7dcac) entered blocking state
+lis 22 00:37:48 pw kernel: br-c9bc11d88ec6: port 1(vethcb7dcac) entered forwarding state
+lis 22 00:37:48 pw NetworkManager[796]: <info>  [1542843468.8215] devices removed (path: /sys/devices/virtual/net/vethdfda964, iface: vethdfda964)
+lis 22 00:37:48 pw NetworkManager[796]: <info>  [1542843468.8216] device (vethdfda964): driver 'veth' does not support carrier detection.
+lis 22 00:37:48 pw NetworkManager[796]: <info>  [1542843468.8219] device (vethcb7dcac): link connected
+lis 22 00:37:49 pw containerd[9702]: time="2018-11-22T00:37:49.425331880+01:00" level=info msg="shim reaped" id=8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc
+lis 22 00:37:49 pw dockerd[9808]: time="2018-11-22T00:37:49.435423985+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:37:49 pw kernel: br-c9bc11d88ec6: port 1(vethcb7dcac) entered disabled state
+lis 22 00:37:49 pw kernel: vethdfda964: renamed from eth0
+lis 22 00:37:49 pw NetworkManager[796]: <info>  [1542843469.4885] device (vethcb7dcac): link disconnected
+lis 22 00:37:49 pw NetworkManager[796]: [0;1;39m<warn>  [1542843469.4885] device (vethdfda964): failed to find device 314 'vethdfda964' with udev[0m
+lis 22 00:37:49 pw NetworkManager[796]: <info>  [1542843469.4898] manager: (vethdfda964): new Veth device (/org/freedesktop/NetworkManager/Devices/465)
+lis 22 00:37:49 pw kernel: br-c9bc11d88ec6: port 1(vethcb7dcac) entered disabled state
+lis 22 00:37:49 pw kernel: device vethcb7dcac left promiscuous mode
+lis 22 00:37:49 pw kernel: br-c9bc11d88ec6: port 1(vethcb7dcac) entered disabled state
+lis 22 00:37:49 pw NetworkManager[796]: <info>  [1542843469.5254] devices added (path: /sys/devices/virtual/net/vethdfda964, iface: vethdfda964)
+lis 22 00:37:49 pw NetworkManager[796]: <info>  [1542843469.5255] device added (path: /sys/devices/virtual/net/vethdfda964, iface: vethdfda964): no ifupdown configuration found.
+lis 22 00:37:49 pw NetworkManager[796]: <info>  [1542843469.5258] devices removed (path: /sys/devices/virtual/net/vethdfda964, iface: vethdfda964)
+lis 22 00:37:49 pw NetworkManager[796]: <info>  [1542843469.5286] device (vethdfda964): driver 'veth' does not support carrier detection.
+lis 22 00:37:49 pw NetworkManager[796]: <info>  [1542843469.5289] device (vethcb7dcac): driver 'veth' does not support carrier detection.
+lis 22 00:37:49 pw NetworkManager[796]: <info>  [1542843469.5333] devices removed (path: /sys/devices/virtual/net/vethcb7dcac, iface: vethcb7dcac)
+lis 22 00:38:02 pw NetworkManager[796]: [0;1;39m<warn>  [1542843482.2378] device (veth63e9c8f): failed to find device 316 'veth63e9c8f' with udev[0m
+lis 22 00:38:02 pw NetworkManager[796]: <info>  [1542843482.2385] manager: (veth63e9c8f): new Veth device (/org/freedesktop/NetworkManager/Devices/466)
+lis 22 00:38:02 pw kernel: br-c9bc11d88ec6: port 1(veth0a182e5) entered blocking state
+lis 22 00:38:02 pw kernel: br-c9bc11d88ec6: port 1(veth0a182e5) entered disabled state
+lis 22 00:38:02 pw kernel: device veth0a182e5 entered promiscuous mode
+lis 22 00:38:02 pw kernel: IPv6: ADDRCONF(NETDEV_UP): veth0a182e5: link is not ready
+lis 22 00:38:02 pw kernel: br-c9bc11d88ec6: port 1(veth0a182e5) entered blocking state
+lis 22 00:38:02 pw kernel: br-c9bc11d88ec6: port 1(veth0a182e5) entered forwarding state
+lis 22 00:38:02 pw kernel: br-c9bc11d88ec6: port 1(veth0a182e5) entered disabled state
+lis 22 00:38:02 pw NetworkManager[796]: [0;1;39m<warn>  [1542843482.2387] device (veth0a182e5): failed to find device 317 'veth0a182e5' with udev[0m
+lis 22 00:38:02 pw NetworkManager[796]: <info>  [1542843482.2392] manager: (veth0a182e5): new Veth device (/org/freedesktop/NetworkManager/Devices/467)
+lis 22 00:38:02 pw systemd-udevd[12109]: [0;1;39mCould not generate persistent MAC address for veth63e9c8f: No such file or directory[0m
+lis 22 00:38:02 pw systemd-udevd[12110]: [0;1;39mCould not generate persistent MAC address for veth0a182e5: No such file or directory[0m
+lis 22 00:38:02 pw dockerd[9808]: time="2018-11-22T00:38:02.249046182+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:38:02 pw dockerd[9808]: time="2018-11-22T00:38:02.249071814+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:38:02 pw NetworkManager[796]: <info>  [1542843482.2517] devices added (path: /sys/devices/virtual/net/veth63e9c8f, iface: veth63e9c8f)
+lis 22 00:38:02 pw NetworkManager[796]: <info>  [1542843482.2518] device added (path: /sys/devices/virtual/net/veth63e9c8f, iface: veth63e9c8f): no ifupdown configuration found.
+lis 22 00:38:02 pw NetworkManager[796]: <info>  [1542843482.2561] devices added (path: /sys/devices/virtual/net/veth0a182e5, iface: veth0a182e5)
+lis 22 00:38:02 pw NetworkManager[796]: <info>  [1542843482.2561] device added (path: /sys/devices/virtual/net/veth0a182e5, iface: veth0a182e5): no ifupdown configuration found.
+lis 22 00:38:02 pw containerd[9702]: time="2018-11-22T00:38:02.288656062+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc/shim.sock" debug=false pid=12139
+lis 22 00:38:02 pw kernel: eth0: renamed from veth63e9c8f
+lis 22 00:38:02 pw NetworkManager[796]: <info>  [1542843482.8096] devices removed (path: /sys/devices/virtual/net/veth63e9c8f, iface: veth63e9c8f)
+lis 22 00:38:02 pw NetworkManager[796]: <info>  [1542843482.8096] device (veth63e9c8f): driver 'veth' does not support carrier detection.
+lis 22 00:38:02 pw NetworkManager[796]: <info>  [1542843482.8100] device (veth0a182e5): link connected
+lis 22 00:38:02 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth0a182e5: link becomes ready
+lis 22 00:38:02 pw kernel: br-c9bc11d88ec6: port 1(veth0a182e5) entered blocking state
+lis 22 00:38:02 pw kernel: br-c9bc11d88ec6: port 1(veth0a182e5) entered forwarding state
+lis 22 00:38:03 pw containerd[9702]: time="2018-11-22T00:38:03.431967399+01:00" level=info msg="shim reaped" id=8d90cd756188d64893941714a166b2e87e9024aa3a8610ca1d40c5e8c8a417cc
+lis 22 00:38:03 pw dockerd[9808]: time="2018-11-22T00:38:03.441511881+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:38:03 pw kernel: br-c9bc11d88ec6: port 1(veth0a182e5) entered disabled state
+lis 22 00:38:03 pw kernel: veth63e9c8f: renamed from eth0
+lis 22 00:38:03 pw NetworkManager[796]: <info>  [1542843483.4925] device (veth0a182e5): link disconnected
+lis 22 00:38:03 pw NetworkManager[796]: [0;1;39m<warn>  [1542843483.4925] device (veth63e9c8f): failed to find device 316 'veth63e9c8f' with udev[0m
+lis 22 00:38:03 pw NetworkManager[796]: <info>  [1542843483.4933] manager: (veth63e9c8f): new Veth device (/org/freedesktop/NetworkManager/Devices/468)
+lis 22 00:38:03 pw kernel: br-c9bc11d88ec6: port 1(veth0a182e5) entered disabled state
+lis 22 00:38:03 pw kernel: device veth0a182e5 left promiscuous mode
+lis 22 00:38:03 pw kernel: br-c9bc11d88ec6: port 1(veth0a182e5) entered disabled state
+lis 22 00:38:03 pw NetworkManager[796]: <info>  [1542843483.5185] devices added (path: /sys/devices/virtual/net/veth63e9c8f, iface: veth63e9c8f)
+lis 22 00:38:03 pw NetworkManager[796]: <info>  [1542843483.5185] device added (path: /sys/devices/virtual/net/veth63e9c8f, iface: veth63e9c8f): no ifupdown configuration found.
+lis 22 00:38:03 pw NetworkManager[796]: <info>  [1542843483.5189] devices removed (path: /sys/devices/virtual/net/veth63e9c8f, iface: veth63e9c8f)
+lis 22 00:38:03 pw NetworkManager[796]: <info>  [1542843483.5201] device (veth63e9c8f): driver 'veth' does not support carrier detection.
+lis 22 00:38:03 pw NetworkManager[796]: <info>  [1542843483.5207] device (veth0a182e5): driver 'veth' does not support carrier detection.
+lis 22 00:38:03 pw NetworkManager[796]: <info>  [1542843483.5252] devices removed (path: /sys/devices/virtual/net/veth0a182e5, iface: veth0a182e5)
+lis 22 00:38:20 pw containerd[9702]: time="2018-11-22T00:38:20.780142369+01:00" level=info msg="shim reaped" id=72d2026d0415ec0ecc9deccf5bfc7c36b8b395894682d31ad157e301a283d448
+lis 22 00:38:20 pw dockerd[9808]: time="2018-11-22T00:38:20.790554556+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:38:20 pw kernel: br-c9bc11d88ec6: port 2(veth9fde1e9) entered disabled state
+lis 22 00:38:20 pw kernel: vethade9288: renamed from eth0
+lis 22 00:38:20 pw NetworkManager[796]: <info>  [1542843500.8494] device (veth9fde1e9): link disconnected
+lis 22 00:38:20 pw NetworkManager[796]: <info>  [1542843500.8495] device (br-c9bc11d88ec6): link disconnected (deferring action for 4 seconds)
+lis 22 00:38:20 pw NetworkManager[796]: [0;1;39m<warn>  [1542843500.8495] device (vethade9288): failed to find device 300 'vethade9288' with udev[0m
+lis 22 00:38:20 pw NetworkManager[796]: <info>  [1542843500.8510] manager: (vethade9288): new Veth device (/org/freedesktop/NetworkManager/Devices/469)
+lis 22 00:38:20 pw avahi-daemon[763]: Interface veth9fde1e9.IPv6 no longer relevant for mDNS.
+lis 22 00:38:20 pw avahi-daemon[763]: Leaving mDNS multicast group on interface veth9fde1e9.IPv6 with address fe80::548d:37ff:fe3e:58c9.
+lis 22 00:38:20 pw kernel: br-c9bc11d88ec6: port 2(veth9fde1e9) entered disabled state
+lis 22 00:38:20 pw kernel: device veth9fde1e9 left promiscuous mode
+lis 22 00:38:20 pw kernel: br-c9bc11d88ec6: port 2(veth9fde1e9) entered disabled state
+lis 22 00:38:20 pw avahi-daemon[763]: Withdrawing address record for fe80::548d:37ff:fe3e:58c9 on veth9fde1e9.
+lis 22 00:38:20 pw NetworkManager[796]: <info>  [1542843500.8816] devices added (path: /sys/devices/virtual/net/vethade9288, iface: vethade9288)
+lis 22 00:38:20 pw NetworkManager[796]: <info>  [1542843500.8816] device added (path: /sys/devices/virtual/net/vethade9288, iface: vethade9288): no ifupdown configuration found.
+lis 22 00:38:20 pw NetworkManager[796]: <info>  [1542843500.8831] devices removed (path: /sys/devices/virtual/net/vethade9288, iface: vethade9288)
+lis 22 00:38:20 pw NetworkManager[796]: <info>  [1542843500.8855] device (vethade9288): driver 'veth' does not support carrier detection.
+lis 22 00:38:20 pw NetworkManager[796]: <info>  [1542843500.8858] device (veth9fde1e9): driver 'veth' does not support carrier detection.
+lis 22 00:38:20 pw NetworkManager[796]: <info>  [1542843500.8893] devices removed (path: /sys/devices/virtual/net/veth9fde1e9, iface: veth9fde1e9)
+lis 22 00:38:23 pw ntpd[1437]: Deleting interface #193 br-c9bc11d88ec6, 10.5.0.1#123, interface stats: received=0, sent=0, dropped=0, active_time=45 secs
+lis 22 00:38:23 pw ntpd[1437]: Deleting interface #194 veth9fde1e9, fe80::548d:37ff:fe3e:58c9%301#123, interface stats: received=0, sent=0, dropped=0, active_time=45 secs
+lis 22 00:38:23 pw ntpd[1437]: Deleting interface #195 br-c9bc11d88ec6, fe80::42:2fff:fe7c:661%73#123, interface stats: received=0, sent=0, dropped=0, active_time=45 secs
+lis 22 00:38:24 pw NetworkManager[796]: <info>  [1542843504.6669] device (br-c9bc11d88ec6): link disconnected (calling deferred action)
+lis 22 00:38:30 pw systemd-udevd[12451]: [0;1;39mCould not generate persistent MAC address for veth8f1a4b9: No such file or directory[0m
+lis 22 00:38:30 pw NetworkManager[796]: [0;1;39m<warn>  [1542843510.6859] device (veth8f1a4b9): failed to find device 318 'veth8f1a4b9' with udev[0m
+lis 22 00:38:30 pw systemd-udevd[12452]: [0;1;39mCould not generate persistent MAC address for veth95c7167: No such file or directory[0m
+lis 22 00:38:30 pw kernel: br-c9bc11d88ec6: port 1(veth95c7167) entered blocking state
+lis 22 00:38:30 pw kernel: br-c9bc11d88ec6: port 1(veth95c7167) entered disabled state
+lis 22 00:38:30 pw kernel: device veth95c7167 entered promiscuous mode
+lis 22 00:38:30 pw kernel: IPv6: ADDRCONF(NETDEV_UP): veth95c7167: link is not ready
+lis 22 00:38:30 pw NetworkManager[796]: <info>  [1542843510.6876] manager: (veth8f1a4b9): new Veth device (/org/freedesktop/NetworkManager/Devices/470)
+lis 22 00:38:30 pw NetworkManager[796]: [0;1;39m<warn>  [1542843510.6892] device (veth95c7167): failed to find device 319 'veth95c7167' with udev[0m
+lis 22 00:38:30 pw NetworkManager[796]: <info>  [1542843510.6899] manager: (veth95c7167): new Veth device (/org/freedesktop/NetworkManager/Devices/471)
+lis 22 00:38:30 pw NetworkManager[796]: <info>  [1542843510.6967] devices added (path: /sys/devices/virtual/net/veth8f1a4b9, iface: veth8f1a4b9)
+lis 22 00:38:30 pw NetworkManager[796]: <info>  [1542843510.6968] device added (path: /sys/devices/virtual/net/veth8f1a4b9, iface: veth8f1a4b9): no ifupdown configuration found.
+lis 22 00:38:30 pw NetworkManager[796]: <info>  [1542843510.6987] devices added (path: /sys/devices/virtual/net/veth95c7167, iface: veth95c7167)
+lis 22 00:38:30 pw NetworkManager[796]: <info>  [1542843510.6987] device added (path: /sys/devices/virtual/net/veth95c7167, iface: veth95c7167): no ifupdown configuration found.
+lis 22 00:38:30 pw dockerd[9808]: time="2018-11-22T00:38:30.705469028+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:38:30 pw dockerd[9808]: time="2018-11-22T00:38:30.705494800+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:38:30 pw containerd[9702]: time="2018-11-22T00:38:30.747867313+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/77b2c6e74baa16ed960e7af3598ca4658fb39f35006ba47a5dcaf01ca662099a/shim.sock" debug=false pid=12479
+lis 22 00:38:31 pw kernel: eth0: renamed from veth8f1a4b9
+lis 22 00:38:31 pw NetworkManager[796]: <info>  [1542843511.2415] devices removed (path: /sys/devices/virtual/net/veth8f1a4b9, iface: veth8f1a4b9)
+lis 22 00:38:31 pw NetworkManager[796]: <info>  [1542843511.2415] device (veth8f1a4b9): driver 'veth' does not support carrier detection.
+lis 22 00:38:31 pw NetworkManager[796]: <info>  [1542843511.2419] device (veth95c7167): link connected
+lis 22 00:38:31 pw NetworkManager[796]: <info>  [1542843511.2421] device (br-c9bc11d88ec6): link connected
+lis 22 00:38:31 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth95c7167: link becomes ready
+lis 22 00:38:31 pw kernel: br-c9bc11d88ec6: port 1(veth95c7167) entered blocking state
+lis 22 00:38:31 pw kernel: br-c9bc11d88ec6: port 1(veth95c7167) entered forwarding state
+lis 22 00:38:31 pw systemd-udevd[12611]: [0;1;39mCould not generate persistent MAC address for veth69cc0cb: No such file or directory[0m
+lis 22 00:38:31 pw NetworkManager[796]: [0;1;39m<warn>  [1542843511.6250] device (veth69cc0cb): failed to find device 320 'veth69cc0cb' with udev[0m
+lis 22 00:38:31 pw systemd-udevd[12612]: [0;1;39mCould not generate persistent MAC address for vethb02bcc5: No such file or directory[0m
+lis 22 00:38:31 pw NetworkManager[796]: <info>  [1542843511.6257] manager: (veth69cc0cb): new Veth device (/org/freedesktop/NetworkManager/Devices/472)
+lis 22 00:38:31 pw NetworkManager[796]: [0;1;39m<warn>  [1542843511.6259] device (vethb02bcc5): failed to find device 321 'vethb02bcc5' with udev[0m
+lis 22 00:38:31 pw NetworkManager[796]: <info>  [1542843511.6265] manager: (vethb02bcc5): new Veth device (/org/freedesktop/NetworkManager/Devices/473)
+lis 22 00:38:31 pw kernel: br-c9bc11d88ec6: port 2(vethb02bcc5) entered blocking state
+lis 22 00:38:31 pw kernel: br-c9bc11d88ec6: port 2(vethb02bcc5) entered disabled state
+lis 22 00:38:31 pw kernel: device vethb02bcc5 entered promiscuous mode
+lis 22 00:38:31 pw kernel: IPv6: ADDRCONF(NETDEV_UP): vethb02bcc5: link is not ready
+lis 22 00:38:31 pw kernel: br-c9bc11d88ec6: port 2(vethb02bcc5) entered blocking state
+lis 22 00:38:31 pw kernel: br-c9bc11d88ec6: port 2(vethb02bcc5) entered forwarding state
+lis 22 00:38:31 pw NetworkManager[796]: <info>  [1542843511.6387] devices added (path: /sys/devices/virtual/net/veth69cc0cb, iface: veth69cc0cb)
+lis 22 00:38:31 pw NetworkManager[796]: <info>  [1542843511.6387] device added (path: /sys/devices/virtual/net/veth69cc0cb, iface: veth69cc0cb): no ifupdown configuration found.
+lis 22 00:38:31 pw NetworkManager[796]: <info>  [1542843511.6404] devices added (path: /sys/devices/virtual/net/vethb02bcc5, iface: vethb02bcc5)
+lis 22 00:38:31 pw NetworkManager[796]: <info>  [1542843511.6406] device added (path: /sys/devices/virtual/net/vethb02bcc5, iface: vethb02bcc5): no ifupdown configuration found.
+lis 22 00:38:31 pw dockerd[9808]: time="2018-11-22T00:38:31.646614395+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:38:31 pw dockerd[9808]: time="2018-11-22T00:38:31.646645404+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:38:31 pw kernel: br-c9bc11d88ec6: port 2(vethb02bcc5) entered disabled state
+lis 22 00:38:31 pw containerd[9702]: time="2018-11-22T00:38:31.688167533+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/e6ae8ef2d0ecbcfe4b4d2722f80ebd3676a3ebd51dc6517887c3184e986d1243/shim.sock" debug=false pid=12639
+lis 22 00:38:32 pw kernel: eth0: renamed from veth69cc0cb
+lis 22 00:38:32 pw NetworkManager[796]: <info>  [1542843512.2255] devices removed (path: /sys/devices/virtual/net/veth69cc0cb, iface: veth69cc0cb)
+lis 22 00:38:32 pw NetworkManager[796]: <info>  [1542843512.2258] device (veth69cc0cb): driver 'veth' does not support carrier detection.
+lis 22 00:38:32 pw NetworkManager[796]: <info>  [1542843512.2262] device (vethb02bcc5): link connected
+lis 22 00:38:32 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethb02bcc5: link becomes ready
+lis 22 00:38:32 pw kernel: br-c9bc11d88ec6: port 2(vethb02bcc5) entered blocking state
+lis 22 00:38:32 pw kernel: br-c9bc11d88ec6: port 2(vethb02bcc5) entered forwarding state
+lis 22 00:38:32 pw avahi-daemon[763]: Joining mDNS multicast group on interface veth95c7167.IPv6 with address fe80::9c6e:88ff:fef0:d98.
+lis 22 00:38:32 pw avahi-daemon[763]: New relevant interface veth95c7167.IPv6 for mDNS.
+lis 22 00:38:32 pw avahi-daemon[763]: Registering new address record for fe80::9c6e:88ff:fef0:d98 on veth95c7167.*.
+lis 22 00:38:34 pw avahi-daemon[763]: Joining mDNS multicast group on interface vethb02bcc5.IPv6 with address fe80::3f:91ff:fe0e:1cd2.
+lis 22 00:38:34 pw avahi-daemon[763]: New relevant interface vethb02bcc5.IPv6 for mDNS.
+lis 22 00:38:34 pw avahi-daemon[763]: Registering new address record for fe80::3f:91ff:fe0e:1cd2 on vethb02bcc5.*.
+lis 22 00:38:35 pw ntpd[1437]: Listen normally on 196 br-c9bc11d88ec6 10.5.0.1:123
+lis 22 00:38:35 pw ntpd[1437]: Listen normally on 197 veth95c7167 [fe80::9c6e:88ff:fef0:d98%319]:123
+lis 22 00:38:35 pw ntpd[1437]: Listen normally on 198 vethb02bcc5 [fe80::3f:91ff:fe0e:1cd2%321]:123
+lis 22 00:38:35 pw ntpd[1437]: Listen normally on 199 br-c9bc11d88ec6 [fe80::42:2fff:fe7c:661%73]:123
+lis 22 00:38:35 pw ntpd[1437]: new interface(s) found: waking up resolver
+lis 22 00:39:01 pw CRON[12864]: pam_unix(cron:session): session opened for user root by (uid=0)
+lis 22 00:39:01 pw CRON[12865]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+lis 22 00:39:01 pw CRON[12864]: pam_unix(cron:session): session closed for user root
+lis 22 00:39:26 pw systemd[1]: Starting Clean php session files...
+-- Subject: Rozpoczęto uruchamianie jednostki phpsessionclean.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka phpsessionclean.service rozpoczęła uruchamianie.
+lis 22 00:39:26 pw systemd[1]: Started Clean php session files.
+-- Subject: Ukończono uruchamianie jednostki phpsessionclean.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka phpsessionclean.service ukończyła uruchamianie.
+-- 
+-- Wynik uruchamiania: done.
+lis 22 00:43:50 pw dockerd[9808]: time="2018-11-22T00:43:50.545225015+01:00" level=info msg="Container e6ae8ef2d0ecbcfe4b4d2722f80ebd3676a3ebd51dc6517887c3184e986d1243 failed to exit within 10 seconds of signal 15 - using the force"
+lis 22 00:43:50 pw containerd[9702]: time="2018-11-22T00:43:50.699166911+01:00" level=info msg="shim reaped" id=e6ae8ef2d0ecbcfe4b4d2722f80ebd3676a3ebd51dc6517887c3184e986d1243
+lis 22 00:43:50 pw dockerd[9808]: time="2018-11-22T00:43:50.709066256+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:43:50 pw kernel: br-c9bc11d88ec6: port 2(vethb02bcc5) entered disabled state
+lis 22 00:43:50 pw kernel: veth69cc0cb: renamed from eth0
+lis 22 00:43:50 pw NetworkManager[796]: <info>  [1542843830.7444] device (vethb02bcc5): link disconnected
+lis 22 00:43:50 pw NetworkManager[796]: [0;1;39m<warn>  [1542843830.7724] device (veth69cc0cb): failed to find device 320 'veth69cc0cb' with udev[0m
+lis 22 00:43:50 pw NetworkManager[796]: <info>  [1542843830.7738] manager: (veth69cc0cb): new Veth device (/org/freedesktop/NetworkManager/Devices/474)
+lis 22 00:43:50 pw kernel: br-c9bc11d88ec6: port 2(vethb02bcc5) entered disabled state
+lis 22 00:43:50 pw kernel: device vethb02bcc5 left promiscuous mode
+lis 22 00:43:50 pw kernel: br-c9bc11d88ec6: port 2(vethb02bcc5) entered disabled state
+lis 22 00:43:50 pw avahi-daemon[763]: Interface vethb02bcc5.IPv6 no longer relevant for mDNS.
+lis 22 00:43:50 pw avahi-daemon[763]: Leaving mDNS multicast group on interface vethb02bcc5.IPv6 with address fe80::3f:91ff:fe0e:1cd2.
+lis 22 00:43:50 pw avahi-daemon[763]: Withdrawing address record for fe80::3f:91ff:fe0e:1cd2 on vethb02bcc5.
+lis 22 00:43:50 pw NetworkManager[796]: <info>  [1542843830.8049] devices added (path: /sys/devices/virtual/net/veth69cc0cb, iface: veth69cc0cb)
+lis 22 00:43:50 pw NetworkManager[796]: <info>  [1542843830.8049] device added (path: /sys/devices/virtual/net/veth69cc0cb, iface: veth69cc0cb): no ifupdown configuration found.
+lis 22 00:43:50 pw NetworkManager[796]: <info>  [1542843830.8053] devices removed (path: /sys/devices/virtual/net/veth69cc0cb, iface: veth69cc0cb)
+lis 22 00:43:50 pw NetworkManager[796]: <info>  [1542843830.8054] device (veth69cc0cb): driver 'veth' does not support carrier detection.
+lis 22 00:43:50 pw NetworkManager[796]: <info>  [1542843830.8063] device (vethb02bcc5): driver 'veth' does not support carrier detection.
+lis 22 00:43:50 pw NetworkManager[796]: <info>  [1542843830.8196] devices removed (path: /sys/devices/virtual/net/vethb02bcc5, iface: vethb02bcc5)
+lis 22 00:43:52 pw ntpd[1437]: Deleting interface #198 vethb02bcc5, fe80::3f:91ff:fe0e:1cd2%321#123, interface stats: received=0, sent=0, dropped=0, active_time=317 secs
+lis 22 00:43:53 pw containerd[9702]: time="2018-11-22T00:43:53.795631111+01:00" level=info msg="shim reaped" id=77b2c6e74baa16ed960e7af3598ca4658fb39f35006ba47a5dcaf01ca662099a
+lis 22 00:43:53 pw dockerd[9808]: time="2018-11-22T00:43:53.806463882+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:43:53 pw kernel: br-c9bc11d88ec6: port 1(veth95c7167) entered disabled state
+lis 22 00:43:53 pw kernel: veth8f1a4b9: renamed from eth0
+lis 22 00:43:53 pw NetworkManager[796]: <info>  [1542843833.8611] device (veth95c7167): link disconnected
+lis 22 00:43:53 pw NetworkManager[796]: <info>  [1542843833.8612] device (br-c9bc11d88ec6): link disconnected (deferring action for 4 seconds)
+lis 22 00:43:53 pw NetworkManager[796]: [0;1;39m<warn>  [1542843833.8613] device (veth8f1a4b9): failed to find device 318 'veth8f1a4b9' with udev[0m
+lis 22 00:43:53 pw NetworkManager[796]: <info>  [1542843833.8628] manager: (veth8f1a4b9): new Veth device (/org/freedesktop/NetworkManager/Devices/475)
+lis 22 00:43:53 pw avahi-daemon[763]: Interface veth95c7167.IPv6 no longer relevant for mDNS.
+lis 22 00:43:53 pw avahi-daemon[763]: Leaving mDNS multicast group on interface veth95c7167.IPv6 with address fe80::9c6e:88ff:fef0:d98.
+lis 22 00:43:53 pw kernel: br-c9bc11d88ec6: port 1(veth95c7167) entered disabled state
+lis 22 00:43:53 pw kernel: device veth95c7167 left promiscuous mode
+lis 22 00:43:53 pw kernel: br-c9bc11d88ec6: port 1(veth95c7167) entered disabled state
+lis 22 00:43:53 pw avahi-daemon[763]: Withdrawing address record for fe80::9c6e:88ff:fef0:d98 on veth95c7167.
+lis 22 00:43:53 pw NetworkManager[796]: <info>  [1542843833.8932] devices added (path: /sys/devices/virtual/net/veth8f1a4b9, iface: veth8f1a4b9)
+lis 22 00:43:53 pw NetworkManager[796]: <info>  [1542843833.8932] device added (path: /sys/devices/virtual/net/veth8f1a4b9, iface: veth8f1a4b9): no ifupdown configuration found.
+lis 22 00:43:53 pw NetworkManager[796]: <info>  [1542843833.8934] devices removed (path: /sys/devices/virtual/net/veth8f1a4b9, iface: veth8f1a4b9)
+lis 22 00:43:53 pw NetworkManager[796]: <info>  [1542843833.8997] device (veth8f1a4b9): driver 'veth' does not support carrier detection.
+lis 22 00:43:53 pw NetworkManager[796]: <info>  [1542843833.9003] device (veth95c7167): driver 'veth' does not support carrier detection.
+lis 22 00:43:53 pw NetworkManager[796]: <info>  [1542843833.9057] devices removed (path: /sys/devices/virtual/net/veth95c7167, iface: veth95c7167)
+lis 22 00:43:56 pw ntpd[1437]: Deleting interface #196 br-c9bc11d88ec6, 10.5.0.1#123, interface stats: received=0, sent=0, dropped=0, active_time=321 secs
+lis 22 00:43:56 pw ntpd[1437]: Deleting interface #197 veth95c7167, fe80::9c6e:88ff:fef0:d98%319#123, interface stats: received=0, sent=0, dropped=0, active_time=321 secs
+lis 22 00:43:56 pw ntpd[1437]: Deleting interface #199 br-c9bc11d88ec6, fe80::42:2fff:fe7c:661%73#123, interface stats: received=0, sent=0, dropped=0, active_time=321 secs
+lis 22 00:43:57 pw NetworkManager[796]: <info>  [1542843837.6673] device (br-c9bc11d88ec6): link disconnected (calling deferred action)
+lis 22 00:45:01 pw CRON[13411]: pam_unix(cron:session): session opened for user root by (uid=0)
+lis 22 00:45:01 pw CRON[13412]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lis 22 00:45:01 pw CRON[13411]: pam_unix(cron:session): session closed for user root
+lis 22 00:45:08 pw dockerd[9808]: time="2018-11-22T00:45:08.880758789+01:00" level=error msg="Not continuing with pull after error: context canceled"
+lis 22 00:45:08 pw dockerd[9808]: time="2018-11-22T00:45:08.886444063+01:00" level=info msg="Layer sha256:7ec6ba7709d4f96109012e4b85020b07de97500bb046f482979758d52f1d6318 cleaned up"
+lis 22 00:47:33 pw kernel: docker0: port 1(vethabb46ef) entered blocking state
+lis 22 00:47:33 pw kernel: docker0: port 1(vethabb46ef) entered disabled state
+lis 22 00:47:33 pw systemd-udevd[13666]: [0;1;39mCould not generate persistent MAC address for veth739fd9a: No such file or directory[0m
+lis 22 00:47:33 pw systemd-udevd[13667]: [0;1;39mCould not generate persistent MAC address for vethabb46ef: No such file or directory[0m
+lis 22 00:47:33 pw NetworkManager[796]: [0;1;39m<warn>  [1542844053.4421] device (veth739fd9a): failed to find device 322 'veth739fd9a' with udev[0m
+lis 22 00:47:33 pw kernel: device vethabb46ef entered promiscuous mode
+lis 22 00:47:33 pw kernel: IPv6: ADDRCONF(NETDEV_UP): vethabb46ef: link is not ready
+lis 22 00:47:33 pw NetworkManager[796]: <info>  [1542844053.4436] manager: (veth739fd9a): new Veth device (/org/freedesktop/NetworkManager/Devices/476)
+lis 22 00:47:33 pw NetworkManager[796]: [0;1;39m<warn>  [1542844053.4440] device (vethabb46ef): failed to find device 323 'vethabb46ef' with udev[0m
+lis 22 00:47:33 pw NetworkManager[796]: <info>  [1542844053.4460] manager: (vethabb46ef): new Veth device (/org/freedesktop/NetworkManager/Devices/477)
+lis 22 00:47:33 pw NetworkManager[796]: <info>  [1542844053.4527] devices added (path: /sys/devices/virtual/net/veth739fd9a, iface: veth739fd9a)
+lis 22 00:47:33 pw NetworkManager[796]: <info>  [1542844053.4527] device added (path: /sys/devices/virtual/net/veth739fd9a, iface: veth739fd9a): no ifupdown configuration found.
+lis 22 00:47:33 pw NetworkManager[796]: <info>  [1542844053.4541] devices added (path: /sys/devices/virtual/net/vethabb46ef, iface: vethabb46ef)
+lis 22 00:47:33 pw NetworkManager[796]: <info>  [1542844053.4541] device added (path: /sys/devices/virtual/net/vethabb46ef, iface: vethabb46ef): no ifupdown configuration found.
+lis 22 00:47:33 pw dockerd[9808]: time="2018-11-22T00:47:33.460177390+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:47:33 pw dockerd[9808]: time="2018-11-22T00:47:33.460204139+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:47:33 pw containerd[9702]: time="2018-11-22T00:47:33.489645018+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/6920c1bf35eba187edc7a85777bfd1a243d0405cb1512daef8e08042b1afa2a9/shim.sock" debug=false pid=13683
+lis 22 00:47:33 pw kernel: eth0: renamed from veth739fd9a
+lis 22 00:47:33 pw NetworkManager[796]: <info>  [1542844053.6854] devices removed (path: /sys/devices/virtual/net/veth739fd9a, iface: veth739fd9a)
+lis 22 00:47:33 pw NetworkManager[796]: <info>  [1542844053.6855] device (veth739fd9a): driver 'veth' does not support carrier detection.
+lis 22 00:47:33 pw NetworkManager[796]: <info>  [1542844053.6858] device (vethabb46ef): link connected
+lis 22 00:47:33 pw NetworkManager[796]: <info>  [1542844053.6860] device (docker0): link connected
+lis 22 00:47:33 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethabb46ef: link becomes ready
+lis 22 00:47:33 pw kernel: docker0: port 1(vethabb46ef) entered blocking state
+lis 22 00:47:33 pw kernel: docker0: port 1(vethabb46ef) entered forwarding state
+lis 22 00:47:34 pw ntpd[1437]: Listen normally on 200 docker0 172.17.0.1:123
+lis 22 00:47:34 pw ntpd[1437]: Listen normally on 201 docker0 [fe80::42:4dff:fe31:51f8%3]:123
+lis 22 00:47:34 pw ntpd[1437]: [0;1;31mbind(25) AF_INET6 fe80::480a:f9ff:fe17:4b5a%323#123 flags 0x11 failed: Cannot assign requested address[0m
+lis 22 00:47:34 pw ntpd[1437]: [0;1;31munable to create socket on vethabb46ef (202) for fe80::480a:f9ff:fe17:4b5a%323#123[0m
+lis 22 00:47:34 pw ntpd[1437]: failed to init interface for address fe80::480a:f9ff:fe17:4b5a%323
+lis 22 00:47:34 pw ntpd[1437]: new interface(s) found: waking up resolver
+lis 22 00:47:35 pw avahi-daemon[763]: Joining mDNS multicast group on interface vethabb46ef.IPv6 with address fe80::480a:f9ff:fe17:4b5a.
+lis 22 00:47:35 pw avahi-daemon[763]: New relevant interface vethabb46ef.IPv6 for mDNS.
+lis 22 00:47:35 pw avahi-daemon[763]: Registering new address record for fe80::480a:f9ff:fe17:4b5a on vethabb46ef.*.
+lis 22 00:47:36 pw ntpd[1437]: Listen normally on 203 vethabb46ef [fe80::480a:f9ff:fe17:4b5a%323]:123
+lis 22 00:47:36 pw ntpd[1437]: new interface(s) found: waking up resolver
+lis 22 00:48:28 pw containerd[9702]: time="2018-11-22T00:48:28.531610824+01:00" level=info msg="shim reaped" id=6920c1bf35eba187edc7a85777bfd1a243d0405cb1512daef8e08042b1afa2a9
+lis 22 00:48:28 pw dockerd[9808]: time="2018-11-22T00:48:28.541548791+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:48:28 pw kernel: docker0: port 1(vethabb46ef) entered disabled state
+lis 22 00:48:28 pw kernel: veth739fd9a: renamed from eth0
+lis 22 00:48:28 pw NetworkManager[796]: <info>  [1542844108.5932] device (vethabb46ef): link disconnected
+lis 22 00:48:28 pw NetworkManager[796]: <info>  [1542844108.5933] device (docker0): link disconnected (deferring action for 4 seconds)
+lis 22 00:48:28 pw NetworkManager[796]: [0;1;39m<warn>  [1542844108.5934] device (veth739fd9a): failed to find device 322 'veth739fd9a' with udev[0m
+lis 22 00:48:28 pw NetworkManager[796]: <info>  [1542844108.5947] manager: (veth739fd9a): new Veth device (/org/freedesktop/NetworkManager/Devices/478)
+lis 22 00:48:28 pw NetworkManager[796]: <info>  [1542844108.6007] devices added (path: /sys/devices/virtual/net/veth739fd9a, iface: veth739fd9a)
+lis 22 00:48:28 pw NetworkManager[796]: <info>  [1542844108.6008] device added (path: /sys/devices/virtual/net/veth739fd9a, iface: veth739fd9a): no ifupdown configuration found.
+lis 22 00:48:28 pw avahi-daemon[763]: Interface vethabb46ef.IPv6 no longer relevant for mDNS.
+lis 22 00:48:28 pw avahi-daemon[763]: Leaving mDNS multicast group on interface vethabb46ef.IPv6 with address fe80::480a:f9ff:fe17:4b5a.
+lis 22 00:48:28 pw kernel: docker0: port 1(vethabb46ef) entered disabled state
+lis 22 00:48:28 pw kernel: device vethabb46ef left promiscuous mode
+lis 22 00:48:28 pw kernel: docker0: port 1(vethabb46ef) entered disabled state
+lis 22 00:48:28 pw avahi-daemon[763]: Withdrawing address record for fe80::480a:f9ff:fe17:4b5a on vethabb46ef.
+lis 22 00:48:28 pw NetworkManager[796]: <info>  [1542844108.6168] devices removed (path: /sys/devices/virtual/net/veth739fd9a, iface: veth739fd9a)
+lis 22 00:48:28 pw NetworkManager[796]: <info>  [1542844108.6179] device (veth739fd9a): driver 'veth' does not support carrier detection.
+lis 22 00:48:28 pw NetworkManager[796]: <info>  [1542844108.6182] device (vethabb46ef): driver 'veth' does not support carrier detection.
+lis 22 00:48:28 pw NetworkManager[796]: <info>  [1542844108.6273] devices removed (path: /sys/devices/virtual/net/vethabb46ef, iface: vethabb46ef)
+lis 22 00:48:30 pw ntpd[1437]: Deleting interface #200 docker0, 172.17.0.1#123, interface stats: received=0, sent=0, dropped=0, active_time=56 secs
+lis 22 00:48:30 pw ntpd[1437]: Deleting interface #201 docker0, fe80::42:4dff:fe31:51f8%3#123, interface stats: received=0, sent=0, dropped=0, active_time=56 secs
+lis 22 00:48:30 pw ntpd[1437]: Deleting interface #203 vethabb46ef, fe80::480a:f9ff:fe17:4b5a%323#123, interface stats: received=0, sent=0, dropped=0, active_time=54 secs
+lis 22 00:48:30 pw NetworkManager[796]: [0;1;39m<warn>  [1542844110.9025] device (veth5fb7a70): failed to find device 324 'veth5fb7a70' with udev[0m
+lis 22 00:48:30 pw systemd-udevd[24845]: [0;1;39mCould not generate persistent MAC address for veth5fb7a70: No such file or directory[0m
+lis 22 00:48:30 pw kernel: docker0: port 1(vethcf321bc) entered blocking state
+lis 22 00:48:30 pw kernel: docker0: port 1(vethcf321bc) entered disabled state
+lis 22 00:48:30 pw kernel: device vethcf321bc entered promiscuous mode
+lis 22 00:48:30 pw kernel: IPv6: ADDRCONF(NETDEV_UP): vethcf321bc: link is not ready
+lis 22 00:48:30 pw systemd-udevd[24846]: [0;1;39mCould not generate persistent MAC address for vethcf321bc: No such file or directory[0m
+lis 22 00:48:30 pw NetworkManager[796]: <info>  [1542844110.9050] manager: (veth5fb7a70): new Veth device (/org/freedesktop/NetworkManager/Devices/479)
+lis 22 00:48:30 pw NetworkManager[796]: [0;1;39m<warn>  [1542844110.9054] device (vethcf321bc): failed to find device 325 'vethcf321bc' with udev[0m
+lis 22 00:48:30 pw NetworkManager[796]: <info>  [1542844110.9071] manager: (vethcf321bc): new Veth device (/org/freedesktop/NetworkManager/Devices/480)
+lis 22 00:48:30 pw NetworkManager[796]: <info>  [1542844110.9129] devices added (path: /sys/devices/virtual/net/vethcf321bc, iface: vethcf321bc)
+lis 22 00:48:30 pw NetworkManager[796]: <info>  [1542844110.9134] device added (path: /sys/devices/virtual/net/vethcf321bc, iface: vethcf321bc): no ifupdown configuration found.
+lis 22 00:48:30 pw NetworkManager[796]: <info>  [1542844110.9181] devices added (path: /sys/devices/virtual/net/veth5fb7a70, iface: veth5fb7a70)
+lis 22 00:48:30 pw NetworkManager[796]: <info>  [1542844110.9181] device added (path: /sys/devices/virtual/net/veth5fb7a70, iface: veth5fb7a70): no ifupdown configuration found.
+lis 22 00:48:30 pw dockerd[9808]: time="2018-11-22T00:48:30.920119474+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:48:30 pw dockerd[9808]: time="2018-11-22T00:48:30.920145316+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:48:30 pw containerd[9702]: time="2018-11-22T00:48:30.950568370+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/d0c9ea081646ba6e4e249cff8bd23d2913a31593fd22f9d76b99f6dd9078d093/shim.sock" debug=false pid=24861
+lis 22 00:48:31 pw kernel: eth0: renamed from veth5fb7a70
+lis 22 00:48:31 pw NetworkManager[796]: <info>  [1542844111.1416] devices removed (path: /sys/devices/virtual/net/veth5fb7a70, iface: veth5fb7a70)
+lis 22 00:48:31 pw NetworkManager[796]: <info>  [1542844111.1417] device (veth5fb7a70): driver 'veth' does not support carrier detection.
+lis 22 00:48:31 pw NetworkManager[796]: <info>  [1542844111.1421] device (vethcf321bc): link connected
+lis 22 00:48:31 pw NetworkManager[796]: <info>  [1542844111.1422] device (docker0): link connected
+lis 22 00:48:31 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethcf321bc: link becomes ready
+lis 22 00:48:31 pw kernel: docker0: port 1(vethcf321bc) entered blocking state
+lis 22 00:48:31 pw kernel: docker0: port 1(vethcf321bc) entered forwarding state
+lis 22 00:48:32 pw avahi-daemon[763]: Joining mDNS multicast group on interface vethcf321bc.IPv6 with address fe80::1057:c3ff:fe75:6314.
+lis 22 00:48:32 pw avahi-daemon[763]: New relevant interface vethcf321bc.IPv6 for mDNS.
+lis 22 00:48:32 pw avahi-daemon[763]: Registering new address record for fe80::1057:c3ff:fe75:6314 on vethcf321bc.*.
+lis 22 00:48:33 pw containerd[9702]: time="2018-11-22T00:48:33.104817320+01:00" level=info msg="shim reaped" id=d0c9ea081646ba6e4e249cff8bd23d2913a31593fd22f9d76b99f6dd9078d093
+lis 22 00:48:33 pw dockerd[9808]: time="2018-11-22T00:48:33.114780081+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:48:33 pw kernel: docker0: port 1(vethcf321bc) entered disabled state
+lis 22 00:48:33 pw kernel: veth5fb7a70: renamed from eth0
+lis 22 00:48:33 pw NetworkManager[796]: <info>  [1542844113.1569] device (vethcf321bc): link disconnected
+lis 22 00:48:33 pw NetworkManager[796]: <info>  [1542844113.1570] device (docker0): link disconnected (deferring action for 4 seconds)
+lis 22 00:48:33 pw NetworkManager[796]: [0;1;39m<warn>  [1542844113.1571] device (veth5fb7a70): failed to find device 324 'veth5fb7a70' with udev[0m
+lis 22 00:48:33 pw NetworkManager[796]: <info>  [1542844113.1587] manager: (veth5fb7a70): new Veth device (/org/freedesktop/NetworkManager/Devices/481)
+lis 22 00:48:33 pw avahi-daemon[763]: Interface vethcf321bc.IPv6 no longer relevant for mDNS.
+lis 22 00:48:33 pw avahi-daemon[763]: Leaving mDNS multicast group on interface vethcf321bc.IPv6 with address fe80::1057:c3ff:fe75:6314.
+lis 22 00:48:33 pw kernel: docker0: port 1(vethcf321bc) entered disabled state
+lis 22 00:48:33 pw kernel: device vethcf321bc left promiscuous mode
+lis 22 00:48:33 pw kernel: docker0: port 1(vethcf321bc) entered disabled state
+lis 22 00:48:33 pw avahi-daemon[763]: Withdrawing address record for fe80::1057:c3ff:fe75:6314 on vethcf321bc.
+lis 22 00:48:33 pw NetworkManager[796]: <info>  [1542844113.1901] devices added (path: /sys/devices/virtual/net/veth5fb7a70, iface: veth5fb7a70)
+lis 22 00:48:33 pw NetworkManager[796]: <info>  [1542844113.1904] device added (path: /sys/devices/virtual/net/veth5fb7a70, iface: veth5fb7a70): no ifupdown configuration found.
+lis 22 00:48:33 pw NetworkManager[796]: <info>  [1542844113.1920] devices removed (path: /sys/devices/virtual/net/veth5fb7a70, iface: veth5fb7a70)
+lis 22 00:48:33 pw NetworkManager[796]: <info>  [1542844113.1931] device (veth5fb7a70): driver 'veth' does not support carrier detection.
+lis 22 00:48:33 pw NetworkManager[796]: <info>  [1542844113.1933] device (vethcf321bc): driver 'veth' does not support carrier detection.
+lis 22 00:48:33 pw NetworkManager[796]: <info>  [1542844113.1965] devices removed (path: /sys/devices/virtual/net/vethcf321bc, iface: vethcf321bc)
+lis 22 00:48:37 pw NetworkManager[796]: <info>  [1542844117.6677] device (docker0): link disconnected (calling deferred action)
+lis 22 00:48:37 pw dockerd[9808]: time="2018-11-22T00:48:37.746889219+01:00" level=info msg="Layer sha256:290c71066425cff50394e94c3b99bae446dd2d95fad3d4a4f1f7b720e6a36703 cleaned up"
+lis 22 00:48:37 pw NetworkManager[796]: [0;1;39m<warn>  [1542844117.9861] device (veth9448085): failed to find device 326 'veth9448085' with udev[0m
+lis 22 00:48:37 pw systemd-udevd[25059]: [0;1;39mCould not generate persistent MAC address for vethe380ac1: No such file or directory[0m
+lis 22 00:48:37 pw kernel: br-c9bc11d88ec6: port 1(vethe380ac1) entered blocking state
+lis 22 00:48:37 pw kernel: br-c9bc11d88ec6: port 1(vethe380ac1) entered disabled state
+lis 22 00:48:37 pw kernel: device vethe380ac1 entered promiscuous mode
+lis 22 00:48:37 pw kernel: IPv6: ADDRCONF(NETDEV_UP): vethe380ac1: link is not ready
+lis 22 00:48:37 pw systemd-udevd[25058]: [0;1;39mCould not generate persistent MAC address for veth9448085: No such file or directory[0m
+lis 22 00:48:37 pw NetworkManager[796]: <info>  [1542844117.9876] manager: (veth9448085): new Veth device (/org/freedesktop/NetworkManager/Devices/482)
+lis 22 00:48:37 pw NetworkManager[796]: [0;1;39m<warn>  [1542844117.9881] device (vethe380ac1): failed to find device 327 'vethe380ac1' with udev[0m
+lis 22 00:48:37 pw NetworkManager[796]: <info>  [1542844117.9896] manager: (vethe380ac1): new Veth device (/org/freedesktop/NetworkManager/Devices/483)
+lis 22 00:48:37 pw NetworkManager[796]: <info>  [1542844117.9953] devices added (path: /sys/devices/virtual/net/veth9448085, iface: veth9448085)
+lis 22 00:48:37 pw NetworkManager[796]: <info>  [1542844117.9954] device added (path: /sys/devices/virtual/net/veth9448085, iface: veth9448085): no ifupdown configuration found.
+lis 22 00:48:37 pw NetworkManager[796]: <info>  [1542844117.9978] devices added (path: /sys/devices/virtual/net/vethe380ac1, iface: vethe380ac1)
+lis 22 00:48:37 pw NetworkManager[796]: <info>  [1542844117.9978] device added (path: /sys/devices/virtual/net/vethe380ac1, iface: vethe380ac1): no ifupdown configuration found.
+lis 22 00:48:38 pw dockerd[9808]: time="2018-11-22T00:48:38.002258457+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:48:38 pw dockerd[9808]: time="2018-11-22T00:48:38.002283111+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:48:38 pw containerd[9702]: time="2018-11-22T00:48:38.041127883+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/5f1c6a6681c724e9c0497458083cbab1860b657f7f8394e8ff518d0b8aa599b4/shim.sock" debug=false pid=25086
+lis 22 00:48:38 pw kernel: eth0: renamed from veth9448085
+lis 22 00:48:38 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethe380ac1: link becomes ready
+lis 22 00:48:38 pw kernel: br-c9bc11d88ec6: port 1(vethe380ac1) entered blocking state
+lis 22 00:48:38 pw kernel: br-c9bc11d88ec6: port 1(vethe380ac1) entered forwarding state
+lis 22 00:48:38 pw NetworkManager[796]: <info>  [1542844118.5217] devices removed (path: /sys/devices/virtual/net/veth9448085, iface: veth9448085)
+lis 22 00:48:38 pw NetworkManager[796]: <info>  [1542844118.5218] device (veth9448085): driver 'veth' does not support carrier detection.
+lis 22 00:48:38 pw NetworkManager[796]: <info>  [1542844118.5222] device (vethe380ac1): link connected
+lis 22 00:48:38 pw NetworkManager[796]: <info>  [1542844118.5223] device (br-c9bc11d88ec6): link connected
+lis 22 00:48:38 pw kernel: br-c9bc11d88ec6: port 2(veth7e2135f) entered blocking state
+lis 22 00:48:38 pw kernel: br-c9bc11d88ec6: port 2(veth7e2135f) entered disabled state
+lis 22 00:48:38 pw kernel: device veth7e2135f entered promiscuous mode
+lis 22 00:48:38 pw kernel: IPv6: ADDRCONF(NETDEV_UP): veth7e2135f: link is not ready
+lis 22 00:48:38 pw kernel: br-c9bc11d88ec6: port 2(veth7e2135f) entered blocking state
+lis 22 00:48:38 pw kernel: br-c9bc11d88ec6: port 2(veth7e2135f) entered forwarding state
+lis 22 00:48:38 pw systemd-udevd[25231]: [0;1;39mCould not generate persistent MAC address for veth47ca617: No such file or directory[0m
+lis 22 00:48:38 pw NetworkManager[796]: [0;1;39m<warn>  [1542844118.8834] device (veth47ca617): failed to find device 328 'veth47ca617' with udev[0m
+lis 22 00:48:38 pw systemd-udevd[25232]: [0;1;39mCould not generate persistent MAC address for veth7e2135f: No such file or directory[0m
+lis 22 00:48:38 pw NetworkManager[796]: <info>  [1542844118.8843] manager: (veth47ca617): new Veth device (/org/freedesktop/NetworkManager/Devices/484)
+lis 22 00:48:38 pw NetworkManager[796]: [0;1;39m<warn>  [1542844118.8845] device (veth7e2135f): failed to find device 329 'veth7e2135f' with udev[0m
+lis 22 00:48:38 pw NetworkManager[796]: <info>  [1542844118.8850] manager: (veth7e2135f): new Veth device (/org/freedesktop/NetworkManager/Devices/485)
+lis 22 00:48:38 pw NetworkManager[796]: <info>  [1542844118.8916] devices added (path: /sys/devices/virtual/net/veth7e2135f, iface: veth7e2135f)
+lis 22 00:48:38 pw NetworkManager[796]: <info>  [1542844118.8916] device added (path: /sys/devices/virtual/net/veth7e2135f, iface: veth7e2135f): no ifupdown configuration found.
+lis 22 00:48:38 pw NetworkManager[796]: <info>  [1542844118.8924] devices added (path: /sys/devices/virtual/net/veth47ca617, iface: veth47ca617)
+lis 22 00:48:38 pw NetworkManager[796]: <info>  [1542844118.8924] device added (path: /sys/devices/virtual/net/veth47ca617, iface: veth47ca617): no ifupdown configuration found.
+lis 22 00:48:38 pw kernel: br-c9bc11d88ec6: port 2(veth7e2135f) entered disabled state
+lis 22 00:48:39 pw dockerd[9808]: time="2018-11-22T00:48:39.045419458+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:48:39 pw dockerd[9808]: time="2018-11-22T00:48:39.045471909+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:48:39 pw containerd[9702]: time="2018-11-22T00:48:39.255733167+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/d724954b7033791babd225e9019cf4370597cb08edbf3b265637cf877db391ac/shim.sock" debug=false pid=25260
+lis 22 00:48:39 pw kernel: eth0: renamed from veth47ca617
+lis 22 00:48:39 pw NetworkManager[796]: <info>  [1542844119.7732] devices removed (path: /sys/devices/virtual/net/veth47ca617, iface: veth47ca617)
+lis 22 00:48:39 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth7e2135f: link becomes ready
+lis 22 00:48:39 pw kernel: br-c9bc11d88ec6: port 2(veth7e2135f) entered blocking state
+lis 22 00:48:39 pw kernel: br-c9bc11d88ec6: port 2(veth7e2135f) entered forwarding state
+lis 22 00:48:39 pw NetworkManager[796]: <info>  [1542844119.7733] device (veth47ca617): driver 'veth' does not support carrier detection.
+lis 22 00:48:39 pw NetworkManager[796]: <info>  [1542844119.7738] device (veth7e2135f): link connected
+lis 22 00:48:39 pw avahi-daemon[763]: Joining mDNS multicast group on interface vethe380ac1.IPv6 with address fe80::7055:95ff:fe85:b485.
+lis 22 00:48:39 pw avahi-daemon[763]: New relevant interface vethe380ac1.IPv6 for mDNS.
+lis 22 00:48:39 pw avahi-daemon[763]: Registering new address record for fe80::7055:95ff:fe85:b485 on vethe380ac1.*.
+lis 22 00:48:41 pw avahi-daemon[763]: Joining mDNS multicast group on interface veth7e2135f.IPv6 with address fe80::80a7:33ff:fed0:cb53.
+lis 22 00:48:41 pw avahi-daemon[763]: New relevant interface veth7e2135f.IPv6 for mDNS.
+lis 22 00:48:41 pw avahi-daemon[763]: Registering new address record for fe80::80a7:33ff:fed0:cb53 on veth7e2135f.*.
+lis 22 00:48:42 pw ntpd[1437]: Listen normally on 204 br-c9bc11d88ec6 10.5.0.1:123
+lis 22 00:48:42 pw ntpd[1437]: Listen normally on 205 vethe380ac1 [fe80::7055:95ff:fe85:b485%327]:123
+lis 22 00:48:42 pw ntpd[1437]: Listen normally on 206 veth7e2135f [fe80::80a7:33ff:fed0:cb53%329]:123
+lis 22 00:48:42 pw ntpd[1437]: Listen normally on 207 br-c9bc11d88ec6 [fe80::42:2fff:fe7c:661%73]:123
+lis 22 00:48:42 pw ntpd[1437]: new interface(s) found: waking up resolver
+lis 22 00:49:02 pw dockerd[9808]: time="2018-11-22T00:49:02.107354725+01:00" level=info msg="Container d724954b7033791babd225e9019cf4370597cb08edbf3b265637cf877db391ac failed to exit within 10 seconds of signal 15 - using the force"
+lis 22 00:49:02 pw containerd[9702]: time="2018-11-22T00:49:02.248858345+01:00" level=info msg="shim reaped" id=d724954b7033791babd225e9019cf4370597cb08edbf3b265637cf877db391ac
+lis 22 00:49:02 pw dockerd[9808]: time="2018-11-22T00:49:02.259709973+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:49:02 pw kernel: br-c9bc11d88ec6: port 2(veth7e2135f) entered disabled state
+lis 22 00:49:02 pw kernel: veth47ca617: renamed from eth0
+lis 22 00:49:02 pw NetworkManager[796]: <info>  [1542844142.3086] device (veth7e2135f): link disconnected
+lis 22 00:49:02 pw NetworkManager[796]: [0;1;39m<warn>  [1542844142.3086] device (veth47ca617): failed to find device 328 'veth47ca617' with udev[0m
+lis 22 00:49:02 pw NetworkManager[796]: <info>  [1542844142.3093] manager: (veth47ca617): new Veth device (/org/freedesktop/NetworkManager/Devices/486)
+lis 22 00:49:02 pw avahi-daemon[763]: Interface veth7e2135f.IPv6 no longer relevant for mDNS.
+lis 22 00:49:02 pw avahi-daemon[763]: Leaving mDNS multicast group on interface veth7e2135f.IPv6 with address fe80::80a7:33ff:fed0:cb53.
+lis 22 00:49:02 pw kernel: br-c9bc11d88ec6: port 2(veth7e2135f) entered disabled state
+lis 22 00:49:02 pw kernel: device veth7e2135f left promiscuous mode
+lis 22 00:49:02 pw kernel: br-c9bc11d88ec6: port 2(veth7e2135f) entered disabled state
+lis 22 00:49:02 pw avahi-daemon[763]: Withdrawing address record for fe80::80a7:33ff:fed0:cb53 on veth7e2135f.
+lis 22 00:49:02 pw NetworkManager[796]: <info>  [1542844142.3338] devices added (path: /sys/devices/virtual/net/veth47ca617, iface: veth47ca617)
+lis 22 00:49:02 pw NetworkManager[796]: <info>  [1542844142.3339] device added (path: /sys/devices/virtual/net/veth47ca617, iface: veth47ca617): no ifupdown configuration found.
+lis 22 00:49:02 pw NetworkManager[796]: <info>  [1542844142.3342] devices removed (path: /sys/devices/virtual/net/veth47ca617, iface: veth47ca617)
+lis 22 00:49:02 pw NetworkManager[796]: <info>  [1542844142.3352] device (veth47ca617): driver 'veth' does not support carrier detection.
+lis 22 00:49:02 pw NetworkManager[796]: <info>  [1542844142.3355] device (veth7e2135f): driver 'veth' does not support carrier detection.
+lis 22 00:49:02 pw NetworkManager[796]: <info>  [1542844142.3405] devices removed (path: /sys/devices/virtual/net/veth7e2135f, iface: veth7e2135f)
+lis 22 00:49:03 pw ntpd[1437]: Deleting interface #206 veth7e2135f, fe80::80a7:33ff:fed0:cb53%329#123, interface stats: received=0, sent=0, dropped=0, active_time=21 secs
+lis 22 00:49:03 pw containerd[9702]: time="2018-11-22T00:49:03.992493066+01:00" level=info msg="shim reaped" id=5f1c6a6681c724e9c0497458083cbab1860b657f7f8394e8ff518d0b8aa599b4
+lis 22 00:49:04 pw dockerd[9808]: time="2018-11-22T00:49:04.002218367+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+lis 22 00:49:04 pw kernel: br-c9bc11d88ec6: port 1(vethe380ac1) entered disabled state
+lis 22 00:49:04 pw kernel: veth9448085: renamed from eth0
+lis 22 00:49:04 pw NetworkManager[796]: <info>  [1542844144.0293] device (vethe380ac1): link disconnected
+lis 22 00:49:04 pw NetworkManager[796]: <info>  [1542844144.0294] device (br-c9bc11d88ec6): link disconnected (deferring action for 4 seconds)
+lis 22 00:49:04 pw NetworkManager[796]: [0;1;39m<warn>  [1542844144.0607] device (veth9448085): failed to find device 326 'veth9448085' with udev[0m
+lis 22 00:49:04 pw NetworkManager[796]: <info>  [1542844144.0623] manager: (veth9448085): new Veth device (/org/freedesktop/NetworkManager/Devices/487)
+lis 22 00:49:04 pw avahi-daemon[763]: Interface vethe380ac1.IPv6 no longer relevant for mDNS.
+lis 22 00:49:04 pw avahi-daemon[763]: Leaving mDNS multicast group on interface vethe380ac1.IPv6 with address fe80::7055:95ff:fe85:b485.
+lis 22 00:49:04 pw kernel: br-c9bc11d88ec6: port 1(vethe380ac1) entered disabled state
+lis 22 00:49:04 pw kernel: device vethe380ac1 left promiscuous mode
+lis 22 00:49:04 pw kernel: br-c9bc11d88ec6: port 1(vethe380ac1) entered disabled state
+lis 22 00:49:04 pw avahi-daemon[763]: Withdrawing address record for fe80::7055:95ff:fe85:b485 on vethe380ac1.
+lis 22 00:49:04 pw NetworkManager[796]: <info>  [1542844144.0857] devices added (path: /sys/devices/virtual/net/veth9448085, iface: veth9448085)
+lis 22 00:49:04 pw NetworkManager[796]: <info>  [1542844144.0857] device added (path: /sys/devices/virtual/net/veth9448085, iface: veth9448085): no ifupdown configuration found.
+lis 22 00:49:04 pw NetworkManager[796]: <info>  [1542844144.0861] devices removed (path: /sys/devices/virtual/net/veth9448085, iface: veth9448085)
+lis 22 00:49:04 pw NetworkManager[796]: <info>  [1542844144.0872] device (veth9448085): driver 'veth' does not support carrier detection.
+lis 22 00:49:04 pw NetworkManager[796]: <info>  [1542844144.0875] device (vethe380ac1): driver 'veth' does not support carrier detection.
+lis 22 00:49:04 pw NetworkManager[796]: <info>  [1542844144.0913] devices removed (path: /sys/devices/virtual/net/vethe380ac1, iface: vethe380ac1)
+lis 22 00:49:06 pw ntpd[1437]: Deleting interface #204 br-c9bc11d88ec6, 10.5.0.1#123, interface stats: received=0, sent=0, dropped=0, active_time=24 secs
+lis 22 00:49:06 pw ntpd[1437]: Deleting interface #205 vethe380ac1, fe80::7055:95ff:fe85:b485%327#123, interface stats: received=0, sent=0, dropped=0, active_time=24 secs
+lis 22 00:49:06 pw ntpd[1437]: Deleting interface #207 br-c9bc11d88ec6, fe80::42:2fff:fe7c:661%73#123, interface stats: received=0, sent=0, dropped=0, active_time=24 secs
+lis 22 00:49:08 pw NetworkManager[796]: <info>  [1542844148.6679] device (br-c9bc11d88ec6): link disconnected (calling deferred action)
+lis 22 00:49:20 pw NetworkManager[796]: [0;1;39m<warn>  [1542844160.8307] device (veth45b27a4): failed to find device 330 'veth45b27a4' with udev[0m
+lis 22 00:49:20 pw NetworkManager[796]: <info>  [1542844160.8315] manager: (veth45b27a4): new Veth device (/org/freedesktop/NetworkManager/Devices/488)
+lis 22 00:49:20 pw kernel: br-c9bc11d88ec6: port 1(veth5a6f6e7) entered blocking state
+lis 22 00:49:20 pw kernel: br-c9bc11d88ec6: port 1(veth5a6f6e7) entered disabled state
+lis 22 00:49:20 pw kernel: device veth5a6f6e7 entered promiscuous mode
+lis 22 00:49:20 pw kernel: IPv6: ADDRCONF(NETDEV_UP): veth5a6f6e7: link is not ready
+lis 22 00:49:20 pw NetworkManager[796]: [0;1;39m<warn>  [1542844160.8317] device (veth5a6f6e7): failed to find device 331 'veth5a6f6e7' with udev[0m
+lis 22 00:49:20 pw NetworkManager[796]: <info>  [1542844160.8329] manager: (veth5a6f6e7): new Veth device (/org/freedesktop/NetworkManager/Devices/489)
+lis 22 00:49:20 pw systemd-udevd[25708]: [0;1;39mCould not generate persistent MAC address for veth5a6f6e7: No such file or directory[0m
+lis 22 00:49:20 pw systemd-udevd[25707]: [0;1;39mCould not generate persistent MAC address for veth45b27a4: No such file or directory[0m
+lis 22 00:49:20 pw NetworkManager[796]: <info>  [1542844160.8443] devices added (path: /sys/devices/virtual/net/veth5a6f6e7, iface: veth5a6f6e7)
+lis 22 00:49:20 pw NetworkManager[796]: <info>  [1542844160.8444] device added (path: /sys/devices/virtual/net/veth5a6f6e7, iface: veth5a6f6e7): no ifupdown configuration found.
+lis 22 00:49:20 pw dockerd[9808]: time="2018-11-22T00:49:20.846590408+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:49:20 pw dockerd[9808]: time="2018-11-22T00:49:20.846614643+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:49:20 pw NetworkManager[796]: <info>  [1542844160.8469] devices added (path: /sys/devices/virtual/net/veth45b27a4, iface: veth45b27a4)
+lis 22 00:49:20 pw NetworkManager[796]: <info>  [1542844160.8470] device added (path: /sys/devices/virtual/net/veth45b27a4, iface: veth45b27a4): no ifupdown configuration found.
+lis 22 00:49:20 pw containerd[9702]: time="2018-11-22T00:49:20.885280622+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/4912b7d89de90b4c79eac81a6c193183a1528560f09d36ba6223dbe53dae9a6d/shim.sock" debug=false pid=25736
+lis 22 00:49:21 pw kernel: eth0: renamed from veth45b27a4
+lis 22 00:49:21 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth5a6f6e7: link becomes ready
+lis 22 00:49:21 pw kernel: br-c9bc11d88ec6: port 1(veth5a6f6e7) entered blocking state
+lis 22 00:49:21 pw kernel: br-c9bc11d88ec6: port 1(veth5a6f6e7) entered forwarding state
+lis 22 00:49:21 pw NetworkManager[796]: <info>  [1542844161.4414] devices removed (path: /sys/devices/virtual/net/veth45b27a4, iface: veth45b27a4)
+lis 22 00:49:21 pw NetworkManager[796]: <info>  [1542844161.4415] device (veth45b27a4): driver 'veth' does not support carrier detection.
+lis 22 00:49:21 pw NetworkManager[796]: <info>  [1542844161.4418] device (veth5a6f6e7): link connected
+lis 22 00:49:21 pw NetworkManager[796]: <info>  [1542844161.4420] device (br-c9bc11d88ec6): link connected
+lis 22 00:49:21 pw kernel: br-c9bc11d88ec6: port 2(vetha0ee917) entered blocking state
+lis 22 00:49:21 pw kernel: br-c9bc11d88ec6: port 2(vetha0ee917) entered disabled state
+lis 22 00:49:21 pw kernel: device vetha0ee917 entered promiscuous mode
+lis 22 00:49:21 pw kernel: IPv6: ADDRCONF(NETDEV_UP): vetha0ee917: link is not ready
+lis 22 00:49:21 pw kernel: br-c9bc11d88ec6: port 2(vetha0ee917) entered blocking state
+lis 22 00:49:21 pw kernel: br-c9bc11d88ec6: port 2(vetha0ee917) entered forwarding state
+lis 22 00:49:21 pw systemd-udevd[25865]: [0;1;39mCould not generate persistent MAC address for veth38c1b6f: No such file or directory[0m
+lis 22 00:49:21 pw systemd-udevd[25866]: [0;1;39mCould not generate persistent MAC address for vetha0ee917: No such file or directory[0m
+lis 22 00:49:21 pw NetworkManager[796]: [0;1;39m<warn>  [1542844161.8210] device (veth38c1b6f): failed to find device 332 'veth38c1b6f' with udev[0m
+lis 22 00:49:21 pw NetworkManager[796]: <info>  [1542844161.8217] manager: (veth38c1b6f): new Veth device (/org/freedesktop/NetworkManager/Devices/490)
+lis 22 00:49:21 pw NetworkManager[796]: [0;1;39m<warn>  [1542844161.8219] device (vetha0ee917): failed to find device 333 'vetha0ee917' with udev[0m
+lis 22 00:49:21 pw NetworkManager[796]: <info>  [1542844161.8227] manager: (vetha0ee917): new Veth device (/org/freedesktop/NetworkManager/Devices/491)
+lis 22 00:49:21 pw NetworkManager[796]: <info>  [1542844161.8265] devices added (path: /sys/devices/virtual/net/vetha0ee917, iface: vetha0ee917)
+lis 22 00:49:21 pw NetworkManager[796]: <info>  [1542844161.8265] device added (path: /sys/devices/virtual/net/vetha0ee917, iface: vetha0ee917): no ifupdown configuration found.
+lis 22 00:49:21 pw dockerd[9808]: time="2018-11-22T00:49:21.828847543+01:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lis 22 00:49:21 pw dockerd[9808]: time="2018-11-22T00:49:21.828876108+01:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lis 22 00:49:21 pw NetworkManager[796]: <info>  [1542844161.8300] devices added (path: /sys/devices/virtual/net/veth38c1b6f, iface: veth38c1b6f)
+lis 22 00:49:21 pw NetworkManager[796]: <info>  [1542844161.8300] device added (path: /sys/devices/virtual/net/veth38c1b6f, iface: veth38c1b6f): no ifupdown configuration found.
+lis 22 00:49:21 pw kernel: br-c9bc11d88ec6: port 2(vetha0ee917) entered disabled state
+lis 22 00:49:21 pw containerd[9702]: time="2018-11-22T00:49:21.869220857+01:00" level=info msg="shim containerd-shim started" address="/containerd-shim/moby/5a6d16ba396a70f916678f0d6d219b8a6a640f14fc2a7297be323b6593149a95/shim.sock" debug=false pid=25895
+lis 22 00:49:22 pw kernel: eth0: renamed from veth38c1b6f
+lis 22 00:49:22 pw NetworkManager[796]: <info>  [1542844162.3855] devices removed (path: /sys/devices/virtual/net/veth38c1b6f, iface: veth38c1b6f)
+lis 22 00:49:22 pw NetworkManager[796]: <info>  [1542844162.3856] device (veth38c1b6f): driver 'veth' does not support carrier detection.
+lis 22 00:49:22 pw NetworkManager[796]: <info>  [1542844162.3860] device (vetha0ee917): link connected
+lis 22 00:49:22 pw kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vetha0ee917: link becomes ready
+lis 22 00:49:22 pw kernel: br-c9bc11d88ec6: port 2(vetha0ee917) entered blocking state
+lis 22 00:49:22 pw kernel: br-c9bc11d88ec6: port 2(vetha0ee917) entered forwarding state
+lis 22 00:49:23 pw avahi-daemon[763]: Joining mDNS multicast group on interface veth5a6f6e7.IPv6 with address fe80::c67:50ff:fea5:9ae5.
+lis 22 00:49:23 pw avahi-daemon[763]: New relevant interface veth5a6f6e7.IPv6 for mDNS.
+lis 22 00:49:23 pw avahi-daemon[763]: Registering new address record for fe80::c67:50ff:fea5:9ae5 on veth5a6f6e7.*.
+lis 22 00:49:23 pw avahi-daemon[763]: Joining mDNS multicast group on interface vetha0ee917.IPv6 with address fe80::cc48:f0ff:fef5:55d6.
+lis 22 00:49:23 pw avahi-daemon[763]: New relevant interface vetha0ee917.IPv6 for mDNS.
+lis 22 00:49:23 pw avahi-daemon[763]: Registering new address record for fe80::cc48:f0ff:fef5:55d6 on vetha0ee917.*.
+lis 22 00:49:24 pw ntpd[1437]: Listen normally on 208 br-c9bc11d88ec6 10.5.0.1:123
+lis 22 00:49:24 pw ntpd[1437]: Listen normally on 209 br-c9bc11d88ec6 [fe80::42:2fff:fe7c:661%73]:123
+lis 22 00:49:24 pw ntpd[1437]: Listen normally on 210 veth5a6f6e7 [fe80::c67:50ff:fea5:9ae5%331]:123
+lis 22 00:49:24 pw ntpd[1437]: Listen normally on 211 vetha0ee917 [fe80::cc48:f0ff:fef5:55d6%333]:123
+lis 22 00:49:24 pw ntpd[1437]: new interface(s) found: waking up resolver
+lis 22 00:54:07 pw sudo[26692]: [0;1;39m      pw : TTY=pts/11 ; PWD=/home/pw ; USER=root ; COMMAND=/bin/su[0m
+lis 22 00:54:07 pw sudo[26692]: pam_unix(sudo:session): session opened for user root by pw(uid=0)
+lis 22 00:54:07 pw su[26694]: Successful su for root by root
+lis 22 00:54:07 pw su[26694]: + /dev/pts/11 root:root
+lis 22 00:54:07 pw su[26694]: pam_unix(su:session): session opened for user root by pw(uid=0)
+lis 22 00:54:07 pw su[26694]: pam_systemd(su:session): Cannot create session: Already running in a session
+lis 22 00:55:01 pw CRON[26769]: pam_unix(cron:session): session opened for user root by (uid=0)
+lis 22 00:55:01 pw CRON[26770]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lis 22 00:55:01 pw CRON[26769]: pam_unix(cron:session): session closed for user root
+lis 22 01:04:33 pw systemd[1]: Stopped MySQL Community Server.
+-- Subject: Ukończono wyłączanie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service ukończyła wyłączanie.
+lis 22 01:04:33 pw systemd[1]: Starting MySQL Community Server...
+-- Subject: Rozpoczęto uruchamianie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service rozpoczęła uruchamianie.
+lis 22 01:04:33 pw audit[27260]: AVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27260 comm="apparmor_parser"
+lis 22 01:04:33 pw kernel: [0;1;39maudit: type=1400 audit(1542845073.473:34): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27260 comm="apparmor_parser"[0m
+lis 22 01:04:33 pw mysqld[27262]: Initialization of mysqld failed: 0
+lis 22 01:04:33 pw systemd[1]: [0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+lis 22 01:04:35 pw systemd[1]: [0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Jednostka mysql.service się nie powiodła
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service się nie powiodła.
+-- 
+-- Wynik: failed.
+lis 22 01:04:35 pw systemd[1]: [0;1;39mmysql.service: Unit entered failed state.[0m
+lis 22 01:04:35 pw systemd[1]: [0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+lis 22 01:04:35 pw systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+lis 22 01:04:35 pw systemd[1]: Stopped MySQL Community Server.
+-- Subject: Ukończono wyłączanie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service ukończyła wyłączanie.
+lis 22 01:04:35 pw systemd[1]: Starting MySQL Community Server...
+-- Subject: Rozpoczęto uruchamianie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service rozpoczęła uruchamianie.
+lis 22 01:04:35 pw audit[27377]: AVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27377 comm="apparmor_parser"
+lis 22 01:04:35 pw kernel: [0;1;39maudit: type=1400 audit(1542845075.745:35): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27377 comm="apparmor_parser"[0m
+lis 22 01:04:36 pw mysqld[27379]: Initialization of mysqld failed: 0
+lis 22 01:04:36 pw systemd[1]: [0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+lis 22 01:04:37 pw systemd[1]: [0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Jednostka mysql.service się nie powiodła
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service się nie powiodła.
+-- 
+-- Wynik: failed.
+lis 22 01:04:37 pw systemd[1]: [0;1;39mmysql.service: Unit entered failed state.[0m
+lis 22 01:04:37 pw systemd[1]: [0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+lis 22 01:04:37 pw systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+lis 22 01:04:37 pw systemd[1]: Stopped MySQL Community Server.
+-- Subject: Ukończono wyłączanie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service ukończyła wyłączanie.
+lis 22 01:04:37 pw systemd[1]: Starting MySQL Community Server...
+-- Subject: Rozpoczęto uruchamianie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service rozpoczęła uruchamianie.
+lis 22 01:04:37 pw audit[27479]: AVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27479 comm="apparmor_parser"
+lis 22 01:04:38 pw kernel: [0;1;39maudit: type=1400 audit(1542845077.997:36): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27479 comm="apparmor_parser"[0m
+lis 22 01:04:38 pw mysqld[27481]: Initialization of mysqld failed: 0
+lis 22 01:04:38 pw systemd[1]: [0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+lis 22 01:04:39 pw systemd[1]: [0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Jednostka mysql.service się nie powiodła
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service się nie powiodła.
+-- 
+-- Wynik: failed.
+lis 22 01:04:39 pw systemd[1]: [0;1;39mmysql.service: Unit entered failed state.[0m
+lis 22 01:04:39 pw systemd[1]: [0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+lis 22 01:04:40 pw systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+lis 22 01:04:40 pw systemd[1]: Stopped MySQL Community Server.
+-- Subject: Ukończono wyłączanie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service ukończyła wyłączanie.
+lis 22 01:04:40 pw systemd[1]: Starting MySQL Community Server...
+-- Subject: Rozpoczęto uruchamianie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service rozpoczęła uruchamianie.
+lis 22 01:04:40 pw audit[27582]: AVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27582 comm="apparmor_parser"
+lis 22 01:04:40 pw kernel: [0;1;39maudit: type=1400 audit(1542845080.249:37): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27582 comm="apparmor_parser"[0m
+lis 22 01:04:40 pw mysqld[27584]: Initialization of mysqld failed: 0
+lis 22 01:04:40 pw systemd[1]: [0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+lis 22 01:04:42 pw systemd[1]: [0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Jednostka mysql.service się nie powiodła
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service się nie powiodła.
+-- 
+-- Wynik: failed.
+lis 22 01:04:42 pw systemd[1]: [0;1;39mmysql.service: Unit entered failed state.[0m
+lis 22 01:04:42 pw systemd[1]: [0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+lis 22 01:04:42 pw systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+lis 22 01:04:42 pw systemd[1]: Stopped MySQL Community Server.
+-- Subject: Ukończono wyłączanie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service ukończyła wyłączanie.
+lis 22 01:04:42 pw systemd[1]: Starting MySQL Community Server...
+-- Subject: Rozpoczęto uruchamianie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service rozpoczęła uruchamianie.
+lis 22 01:04:42 pw audit[27678]: AVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27678 comm="apparmor_parser"
+lis 22 01:04:42 pw kernel: [0;1;39maudit: type=1400 audit(1542845082.497:38): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27678 comm="apparmor_parser"[0m
+lis 22 01:04:42 pw mysqld[27680]: Initialization of mysqld failed: 0
+lis 22 01:04:42 pw systemd[1]: [0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+lis 22 01:04:44 pw systemd[1]: [0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Jednostka mysql.service się nie powiodła
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service się nie powiodła.
+-- 
+-- Wynik: failed.
+lis 22 01:04:44 pw systemd[1]: [0;1;39mmysql.service: Unit entered failed state.[0m
+lis 22 01:04:44 pw systemd[1]: [0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+lis 22 01:04:44 pw systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+lis 22 01:04:44 pw systemd[1]: Stopped MySQL Community Server.
+-- Subject: Ukończono wyłączanie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service ukończyła wyłączanie.
+lis 22 01:04:44 pw systemd[1]: Starting MySQL Community Server...
+-- Subject: Rozpoczęto uruchamianie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service rozpoczęła uruchamianie.
+lis 22 01:04:44 pw audit[27776]: AVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27776 comm="apparmor_parser"
+lis 22 01:04:44 pw kernel: [0;1;39maudit: type=1400 audit(1542845084.753:39): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27776 comm="apparmor_parser"[0m
+lis 22 01:04:45 pw mysqld[27778]: Initialization of mysqld failed: 0
+lis 22 01:04:45 pw systemd[1]: [0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+lis 22 01:04:46 pw systemd[1]: [0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Jednostka mysql.service się nie powiodła
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service się nie powiodła.
+-- 
+-- Wynik: failed.
+lis 22 01:04:46 pw systemd[1]: [0;1;39mmysql.service: Unit entered failed state.[0m
+lis 22 01:04:46 pw systemd[1]: [0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+lis 22 01:04:46 pw systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+lis 22 01:04:46 pw systemd[1]: Stopped MySQL Community Server.
+-- Subject: Ukończono wyłączanie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service ukończyła wyłączanie.
+lis 22 01:04:46 pw systemd[1]: Starting MySQL Community Server...
+-- Subject: Rozpoczęto uruchamianie jednostki mysql.service
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Jednostka mysql.service rozpoczęła uruchamianie.
+lis 22 01:04:46 pw audit[27874]: AVC apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27874 comm="apparmor_parser"
+lis 22 01:04:47 pw kernel: [0;1;39maudit: type=1400 audit(1542845086.997:40): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/sbin/mysqld" pid=27874 comm="apparmor_parser"[0m
+lis 22 01:04:47 pw mysqld[27876]: Initialization of mysqld failed: 0
+lis 22 01:04:47 pw systemd[1]: [0;1;39mmysql.service: Control process exited, code=exited status=1[0m
